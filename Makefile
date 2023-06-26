@@ -3,4 +3,4 @@ build:
 	&& yarn build \
 	&& cd .. \
 	&& rm -rf docs/* \
-	&& cp app/build/* docs/
+	&& cp -R app/build/* docs/
