@@ -12,37 +12,37 @@ import DoneIcon from "@mui/icons-material/Done";
 const NestedListItems = () => {
   return (
     <>
-      <ListItemButton href="/">
+      <ListItemButton href="/#/">
         <ListItemIcon>
           <DashboardIcon />
         </ListItemIcon>
         <ListItemText primary={"Home"} />
       </ListItemButton>
-      <ListItemButton href="/education">
+      <ListItemButton href="/#/education">
         <ListItemIcon>
           <SchoolIcon />
         </ListItemIcon>
         <ListItemText primary={"Education"} />
       </ListItemButton>
-      <ListItemButton href="/experiences">
+      <ListItemButton href="/#/experiences">
         <ListItemIcon>
           <DoneIcon />
         </ListItemIcon>
         <ListItemText primary={"Experiences"} />
       </ListItemButton>
-      <ListItemButton href="/academic-paper">
+      <ListItemButton href="/#/academic-paper">
         <ListItemIcon>
           <MenuBookIcon />
         </ListItemIcon>
         <ListItemText primary={"Academic Paper"} />
       </ListItemButton>
-      <ListItemButton href="/accomplishments">
+      <ListItemButton href="/#/accomplishments">
         <ListItemIcon>
           <EmojiEventsIcon />
         </ListItemIcon>
         <ListItemText primary={"Accomplishments"} />
       </ListItemButton>
-      <ListItemButton href="/skills">
+      <ListItemButton href="/#/skills">
         <ListItemIcon>
           <PsychologyIcon />
         </ListItemIcon>
