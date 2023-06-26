@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 // HOME
 import Home from "pages/home";
@@ -11,36 +11,36 @@ import Skills from "pages/skills";
 const Router = (): JSX.Element => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
+      </HashRouter>
+      <HashRouter>
         <Routes>
           <Route path="/education" element={<Education />} />
         </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
+      </HashRouter>
+      <HashRouter>
         <Routes>
           <Route path="/experiences" element={<Experiences />} />
         </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
+      </HashRouter>
+      <HashRouter>
         <Routes>
           <Route path="/academic-paper" element={<AcademicPaper />} />
         </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
+      </HashRouter>
+      <HashRouter>
         <Routes>
           <Route path="/accomplishments" element={<Accomplishments />} />
         </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
+      </HashRouter>
+      <HashRouter>
         <Routes>
           <Route path="/skills" element={<Skills />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
