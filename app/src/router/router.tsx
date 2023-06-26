@@ -7,6 +7,7 @@ import Experiences from "pages/experiences";
 import AcademicPaper from "pages/academicPaper";
 import Accomplishments from "pages/accomplishments";
 import Skills from "pages/skills";
+import Blog from "pages/blog";
 
 const RouterPage = () => {
   return (
@@ -18,6 +19,7 @@ const RouterPage = () => {
         <Route path="/academic-paper" element={<AcademicPaper />} />
         <Route path="/accomplishments" element={<Accomplishments />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </>
   );

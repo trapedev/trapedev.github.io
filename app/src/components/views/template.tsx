@@ -28,6 +28,8 @@ import { WINDOW_INNER_HEIGHT } from "models/constants";
 
 // ** Views Import
 import NestedListItems from "pages/list/listItems";
+import { Container } from "@mui/material";
+import { GitHub, Instagram, Twitter } from "@mui/icons-material";
 
 const drawerWidth = 240;
 
@@ -87,6 +89,15 @@ const mdTheme = createTheme({
     },
   },
 });
+
+const Footer = styled("footer")(({ theme }) => ({
+  backgroundColor: theme.palette.background.paper,
+  padding: theme.spacing(2),
+  position: "fixed",
+  bottom: 0,
+  width: "100%",
+  zIndex: theme.zIndex.drawer + 1,
+}));
 
 interface TemplateProps {
   children: React.ReactNode;
@@ -178,6 +189,31 @@ export default function Template(props: TemplateProps) {
           <Toolbar />
           {children}
         </Box>
+        <Footer>
+          <Container maxWidth="lg" sx={{ display: 'flex', justifyContent: 'center' }}>
+            <a
+              href="https://github.com/trapedev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHub sx={{ ml: 1, mr: 1 }} />
+            </a>
+            <a
+              href="https://www.instagram.com/trape.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Instagram sx={{ ml: 1, mr: 1 }} />
+            </a>
+            <a
+              href="https://twitter.com/trape_dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter sx={{ ml: 1, mr: 1 }} />
+            </a>
+          </Container>
+        </Footer>
       </Box>
     </ThemeProvider>
   );

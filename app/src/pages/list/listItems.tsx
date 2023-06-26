@@ -8,6 +8,7 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import PsychologyIcon from "@mui/icons-material/Psychology";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import DoneIcon from "@mui/icons-material/Done";
+import EditNoteIcon from "@mui/icons-material/EditNote";
 
 const NestedListItems = () => {
   return (
@@ -47,6 +48,12 @@ const NestedListItems = () => {
           <PsychologyIcon />
         </ListItemIcon>
         <ListItemText primary={"Skills"} />
+      </ListItemButton>
+      <ListItemButton href="/#/blog">
+        <ListItemIcon>
+          <EditNoteIcon />
+        </ListItemIcon>
+        <ListItemText primary={"Blog"} />
       </ListItemButton>
     </>
   );

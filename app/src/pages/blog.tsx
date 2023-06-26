@@ -1,9 +1,9 @@
 import Template from "components/views/template";
 import { BaseContainer, BaseItem } from "components/views/ui";
 
-const Skills = () => {
+const Blog = () => {
   return (
-    <Template name={"Skills"}>
+    <Template name={"Blog"}>
       <BaseContainer>
         <BaseItem xs={12}>
           <></>
@@ -13,4 +13,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Blog;
