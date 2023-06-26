@@ -2,7 +2,7 @@ import Template from "components/views/template";
 
 const Accomplishments = () => {
   return (
-    <Template name={"ACCOMPLISHMENTS"}>
+    <Template name={"Accomplishments"}>
       <></>
     </Template>
   );

@@ -6,6 +6,9 @@ import TableCell from "@mui/material/TableCell";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
+import Container from "@mui/material/Container";
 
 export type EnhancedTableHeadType = {
   id: string;
@@ -47,5 +50,47 @@ export const Title = (props: TitleProps) => {
     <Typography component="h2" variant="h6" color="primary" gutterBottom>
       {children}
     </Typography>
+  );
+};
+
+interface BaseContainerProps {
+  children: ReactNode;
+}
+
+export const BaseContainer = (props: BaseContainerProps) => {
+  const { children } = props;
+  return (
+    <>
+      <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
+        <Grid container spacing={3}>
+          {children}
+        </Grid>
+      </Container>
+    </>
+  );
+};
+
+interface BaseItemProps {
+  xs: number;
+  children: ReactNode;
+}
+
+export const BaseItem = (props: BaseItemProps) => {
+  const { xs, children } = props;
+  return (
+    <>
+      <Grid item xs={xs}>
+        <Paper
+          sx={{
+            p: 2,
+            display: "flex",
+            flexDirection: "column",
+            height: "flex",
+          }}
+        >
+          {children}
+        </Paper>
+      </Grid>
+    </>
   );
 };

@@ -2,7 +2,7 @@ import Template from "components/views/template";
 
 const Skills = () => {
   return (
-    <Template name={"SKILLS"}>
+    <Template name={"Skills"}>
       <></>
     </Template>
   );
