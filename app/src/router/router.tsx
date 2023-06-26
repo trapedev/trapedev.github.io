@@ -13,32 +13,32 @@ const Router = (): JSX.Element => {
     <>
       <HashRouter>
         <Routes>
-          <Route path="/#" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </HashRouter>
       <HashRouter>
         <Routes>
-          <Route path="/#/education" element={<Education />} />
+          <Route path="/education" element={<Education />} />
         </Routes>
       </HashRouter>
       <HashRouter>
         <Routes>
-          <Route path="/#/experiences" element={<Experiences />} />
+          <Route path="/experiences" element={<Experiences />} />
         </Routes>
       </HashRouter>
       <HashRouter>
         <Routes>
-          <Route path="/#/academic-paper" element={<AcademicPaper />} />
+          <Route path="/academic-paper" element={<AcademicPaper />} />
         </Routes>
       </HashRouter>
       <HashRouter>
         <Routes>
-          <Route path="/#/accomplishments" element={<Accomplishments />} />
+          <Route path="/accomplishments" element={<Accomplishments />} />
         </Routes>
       </HashRouter>
       <HashRouter>
         <Routes>
-          <Route path="/#/skills" element={<Skills />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </HashRouter>
     </>
