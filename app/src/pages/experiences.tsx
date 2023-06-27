@@ -1,6 +1,12 @@
 import Template from "components/views/template";
 import Typography from "@mui/material/Typography";
-import { BaseContainer, BaseItem, SingleCardItem } from "components/views/ui";
+import {
+  BaseContainer,
+  BaseItem,
+  HyperLink,
+  SecondaryText,
+  SingleCardItem,
+} from "components/views/ui";
 
 const Experiences = () => {
   return (
@@ -20,41 +26,30 @@ const Experiences = () => {
             </Typography>
             <ul className="list">
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Developing and operating cram schools business management
-                  service named{" "}
-                  <a
-                    href="https://www.juksl.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    "ジュクスル"
-                  </a>
-                </Typography>
+                <SecondaryText
+                  data={
+                    <>
+                      Developing and operating cram schools business management
+                      service named{" "}
+                      <HyperLink
+                        url="https://www.juksl.com/"
+                        data={"`ジュクスル`"}
+                      />
+                    </>
+                  }
+                />
               </li>
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  In charge of front-end (Next.js/TypeScript) and
-                  back-end(Golang) development.
-                </Typography>
+                <SecondaryText data="In charge of front-end (Next.js/TypeScript) and back-end(Golang) development." />
               </li>
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Implemented the transition from monolithic to microservices,
-                  as the service is extended.
-                </Typography>
+                <SecondaryText data="Implemented the transition from monolithic to microservices, as the service is extended." />
               </li>
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Increased processing speed by approximately 17% by improving
-                  business logic algorithms.
-                </Typography>
+                <SecondaryText data="Increased processing speed by approximately 17% by improving business logic algorithms." />
               </li>
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Implemented the function that generate and update some of the
-                  code automatically to implementation operational efficiency.
-                </Typography>
+                <SecondaryText data="Implemented the function that generate and update some of the code automatically to implementation operational efficiency." />
               </li>
             </ul>
           </SingleCardItem>
@@ -71,14 +66,10 @@ const Experiences = () => {
             </Typography>
             <ul className="list">
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Analyzed malware and ransomware.
-                </Typography>
+                <SecondaryText data="Analyzed malware and ransomware." />
               </li>
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Got the 1st score in CTF contest among the interns.
-                </Typography>
+                <SecondaryText data="Got the 1st score in CTF contest among the interns." />
               </li>
             </ul>
           </SingleCardItem>
@@ -89,12 +80,13 @@ const Experiences = () => {
             </Typography>
             <ul className="list">
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Developed e-learning system in PHP as a part of the
+                <Typography variant="body2" color="text.secondary"></Typography>
+                <SecondaryText
+                  data="Developed e-learning system in PHP as a part of the
                   “サイバーセキュリティお助け隊サービス(Cyber Security Help Team
                   Service)” sponsored by the Osaka Chamber of Commerce and
-                  Industry.
-                </Typography>
+                  Industry."
+                />
               </li>
             </ul>
           </SingleCardItem>
@@ -105,24 +97,22 @@ const Experiences = () => {
             </Typography>
             <ul className="list">
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Developed game-style cyber security education application
-                  named{" "}
-                  <a
-                    href="https://www.tcn.jp/news/detail/5/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    "す ご セ ク"
-                  </a>{" "}
-                  in JavaScript.
-                </Typography>
+                <SecondaryText
+                  data={
+                    <>
+                      Developed game-style cyber security education application
+                      named{" "}
+                      <HyperLink
+                        url="https://www.tcn.jp/news/detail/5/"
+                        data={"`すごセク`"}
+                      />{" "}
+                      in JavaScript.
+                    </>
+                  }
+                />
               </li>
               <li>
-                <Typography variant="body2" color="text.secondary">
-                  Analyzed data of cyber security awareness from the collected
-                  data using R language.
-                </Typography>
+                <SecondaryText data="Analyzed data of cyber security awareness from the collected data using R language." />
               </li>
             </ul>
           </SingleCardItem>

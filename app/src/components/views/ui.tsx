@@ -42,14 +42,14 @@ export const EnhancedTableHead = (props: EnhancedTableHeadProps) => {
 };
 
 interface TitleProps {
-  children: ReactNode;
+  title: ReactNode;
 }
 
 export const Title = (props: TitleProps) => {
-  const { children } = props;
+  const { title } = props;
   return (
-    <Typography component="h2" variant="h6" color="primary" gutterBottom>
-      {children}
+    <Typography gutterBottom variant="h5" component="div">
+      {title}
     </Typography>
   );
 };
@@ -111,14 +111,14 @@ export const HyperLink = (props: HyperLinkProps) => {
 };
 
 interface SecondaryTextProps {
-  text: string;
+  data: ReactNode;
 }
 
 export const SecondaryText = (props: SecondaryTextProps) => {
-  const { text } = props;
+  const { data } = props;
   return (
     <Typography variant="body2" color="text.secondary">
-      {text}
+      {data}
     </Typography>
   );
 };

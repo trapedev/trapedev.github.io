@@ -1,10 +1,10 @@
 import Template from "components/views/template";
-import Typography from "@mui/material/Typography";
 import {
   BaseContainer,
   BaseItem,
   SecondaryText,
   SingleCardItem,
+  Title,
 } from "components/views/ui";
 
 const Accomplishments = () => {
@@ -24,10 +24,10 @@ export default Accomplishments;
 const First = () => {
   return (
     <SingleCardItem>
-      <Typography gutterBottom variant="h5" component="div">
-        02/2022 &nbsp;&nbsp;&nbsp;&nbsp; TOEIC L&R Score:825
-      </Typography>
-      <SecondaryText text={"Listening : 420, Reading : 405"} />
+      <Title
+        title={<>02/2022 &nbsp;&nbsp;&nbsp;&nbsp; TOEIC L&R Score:825</>}
+      />
+      <SecondaryText data={"Listening : 420, Reading : 405"} />
     </SingleCardItem>
   );
 };
