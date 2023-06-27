@@ -9,6 +9,7 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
+import { Card, CardActionArea, CardContent } from "@mui/material";
 
 export type EnhancedTableHeadType = {
   id: string;
@@ -119,5 +120,20 @@ export const SecondaryText = (props: SecondaryTextProps) => {
     <Typography variant="body2" color="text.secondary">
       {text}
     </Typography>
+  );
+};
+
+interface SingleCardItemProps {
+  children: ReactNode;
+}
+
+export const SingleCardItem = (props: SingleCardItemProps) => {
+  const { children } = props;
+  return (
+    <Card sx={{ maxWidth: "100%", mt: 1, mb: 1 }}>
+      <CardActionArea>
+        <CardContent>{children}</CardContent>
+      </CardActionArea>
+    </Card>
   );
 };
