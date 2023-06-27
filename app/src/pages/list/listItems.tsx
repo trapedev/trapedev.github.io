@@ -10,7 +10,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import DoneIcon from "@mui/icons-material/Done";
 import EditNoteIcon from "@mui/icons-material/EditNote";
 
-const NestedListItems = () => {
+const ListItems = () => {
   return (
     <>
       <ListItemButton href="/#/">
@@ -59,4 +59,4 @@ const NestedListItems = () => {
   );
 };
 
-export default NestedListItems;
+export default ListItems;

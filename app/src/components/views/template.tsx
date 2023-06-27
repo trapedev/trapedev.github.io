@@ -23,13 +23,15 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
 // ** UI Import
-import { EnhancedTableHead, EnhancedTableHeadType } from "./ui";
+import { EnhancedTableHead, EnhancedTableHeadType, HyperLink } from "./ui";
 import { WINDOW_INNER_HEIGHT } from "models/constants";
 
 // ** Views Import
-import NestedListItems from "pages/list/listItems";
+import ListItems from "pages/list/listItems";
 import { Container } from "@mui/material";
 import { GitHub, Instagram, Twitter } from "@mui/icons-material";
+
+import "./template.css";
 
 const drawerWidth = 240;
 
@@ -171,7 +173,7 @@ export default function Template(props: TemplateProps) {
           </Toolbar>
           <Divider />
           <List component="nav">
-            <NestedListItems />
+            <ListItems />
           </List>
         </Drawer>
         <Box
@@ -187,31 +189,25 @@ export default function Template(props: TemplateProps) {
           }}
         >
           <Toolbar />
-          {children}
+          <div className="fade-in-up">{children}</div>
         </Box>
         <Footer>
-          <Container maxWidth="lg" sx={{ display: 'flex', justifyContent: 'center' }}>
-            <a
-              href="https://github.com/trapedev"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GitHub sx={{ ml: 1, mr: 1 }} />
-            </a>
-            <a
-              href="https://www.instagram.com/trape.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Instagram sx={{ ml: 1, mr: 1 }} />
-            </a>
-            <a
-              href="https://twitter.com/trape_dev"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Twitter sx={{ ml: 1, mr: 1 }} />
-            </a>
+          <Container
+            maxWidth="lg"
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
+            <HyperLink
+              url={"https://github.com/trapedev"}
+              data={<GitHub sx={{ ml: 1, mr: 1 }} />}
+            />
+            <HyperLink
+              url={"https://www.instagram.com/trape.dev/"}
+              data={<Instagram sx={{ ml: 1, mr: 1 }} />}
+            />
+            <HyperLink
+              url={"https://twitter.com/trape_dev"}
+              data={<Twitter sx={{ ml: 1, mr: 1 }} />}
+            />
           </Container>
         </Footer>
       </Box>

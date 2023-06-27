@@ -1,0 +1,18 @@
+/* App.css */
+.fade-in-up {
+  animation: fadeInUp ease 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -94,3 +94,30 @@ export const BaseItem = (props: BaseItemProps) => {
     </>
   );
 };
+
+interface HyperLinkProps {
+  url: string;
+  data: ReactNode;
+}
+
+export const HyperLink = (props: HyperLinkProps) => {
+  const { url, data } = props;
+  return (
+    <a href={url} target="_blank" rel="noopener noreferrer">
+      {data}
+    </a>
+  );
+};
+
+interface SecondaryTextProps {
+  text: string;
+}
+
+export const SecondaryText = (props: SecondaryTextProps) => {
+  const { text } = props;
+  return (
+    <Typography variant="body2" color="text.secondary">
+      {text}
+    </Typography>
+  );
+};
