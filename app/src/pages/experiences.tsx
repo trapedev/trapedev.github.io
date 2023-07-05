@@ -131,7 +131,7 @@ const Experiences = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        "す ご セ ク"
+                        "すごセク"
                       </a>{" "}
                       in JavaScript.
                     </Typography>
