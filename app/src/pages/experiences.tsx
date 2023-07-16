@@ -62,7 +62,8 @@ const Experiences = () => {
                 rel="noopener noreferrer"
               >
                 Sony Corp.
-              </a>
+              </a>{" "}
+              (PLAN TO JOIN !)
             </Typography>
           </SingleCardItem>
           <SingleCardItem>
@@ -74,7 +75,8 @@ const Experiences = () => {
                 rel="noopener noreferrer"
               >
                 Money Forward Inc.
-              </a>
+              </a>{" "}
+              (PLAN TO JOIN !)
             </Typography>
           </SingleCardItem>
           <SingleCardItem>
@@ -86,7 +88,8 @@ const Experiences = () => {
                 rel="noopener noreferrer"
               >
                 Hewlett Packard Enterprise
-              </a>
+              </a>{" "}
+              (PLAN TO JOIN !)
             </Typography>
           </SingleCardItem>
           <SingleCardItem>
