@@ -55,7 +55,43 @@ const Experiences = () => {
           </SingleCardItem>
           <SingleCardItem>
             <Typography gutterBottom variant="h5" component="div">
-              08/2022 - 09/2022 &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
+              08/2023 - 09/2023 (2 weeks) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
+              <a
+                href="https://www.sony.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sony Corp.
+              </a>
+            </Typography>
+          </SingleCardItem>
+          <SingleCardItem>
+            <Typography gutterBottom variant="h5" component="div">
+              08/2023 - 08/2023 (2 weeks) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
+              <a
+                href="https://corp.moneyforward.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Money Forward Inc.
+              </a>
+            </Typography>
+          </SingleCardItem>
+          <SingleCardItem>
+            <Typography gutterBottom variant="h5" component="div">
+              07/2023 (1 day) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
+              <a
+                href="https://www.hpe.com/us/en/home.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hewlett Packard Enterprise
+              </a>
+            </Typography>
+          </SingleCardItem>
+          <SingleCardItem>
+            <Typography gutterBottom variant="h5" component="div">
+              08/2022 - 09/2022 (5 days) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
               <a
                 href="https://www.canon-its.co.jp/"
                 target="_blank"
