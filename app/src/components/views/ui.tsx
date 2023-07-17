@@ -48,7 +48,12 @@ interface TitleProps {
 export const Title = (props: TitleProps) => {
   const { title } = props;
   return (
-    <Typography gutterBottom variant="h5" component="div">
+    <Typography
+      gutterBottom
+      variant="h5"
+      component="div"
+      sx={{ color: "white" }}
+    >
       {title}
     </Typography>
   );
@@ -87,6 +92,7 @@ export const BaseItem = (props: BaseItemProps) => {
             display: "flex",
             flexDirection: "column",
             height: "flex",
+            backgroundColor: "#23252f",
           }}
         >
           {children}
@@ -104,7 +110,7 @@ interface HyperLinkProps {
 export const HyperLink = (props: HyperLinkProps) => {
   const { url, data } = props;
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer">
+    <a href={url} target="_blank" rel="noopener noreferrer" color="white">
       {data}
     </a>
   );
@@ -117,7 +123,11 @@ interface SecondaryTextProps {
 export const SecondaryText = (props: SecondaryTextProps) => {
   const { data } = props;
   return (
-    <Typography variant="body2" color="text.secondary">
+    <Typography
+      variant="body2"
+      color="text.secondary"
+      sx={{ color: "lightgray" }}
+    >
       {data}
     </Typography>
   );
@@ -130,7 +140,7 @@ interface SingleCardItemProps {
 export const SingleCardItem = (props: SingleCardItemProps) => {
   const { children } = props;
   return (
-    <Card sx={{ maxWidth: "100%", mt: 1, mb: 1 }}>
+    <Card sx={{ maxWidth: "100%", mt: 1, mb: 1, backgroundColor: "slategray" }}>
       <CardActionArea>
         <CardContent>{children}</CardContent>
       </CardActionArea>

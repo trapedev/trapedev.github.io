@@ -14,7 +14,12 @@ const Experiences = () => {
       <BaseContainer>
         <BaseItem xs={12}>
           <SingleCardItem>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              sx={{ color: "white" }}
+            >
               08/2021 - Present &nbsp;&nbsp;&nbsp;&nbsp; Internship,
               <a
                 href="https://www.ijyuku.clantable.com/clantable-corp"
@@ -54,7 +59,12 @@ const Experiences = () => {
             </ul>
           </SingleCardItem>
           <SingleCardItem>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              sx={{ color: "white" }}
+            >
               08/2023 - 09/2023 (2 weeks) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
               <a
                 href="https://www.sony.com/en/"
@@ -67,7 +77,12 @@ const Experiences = () => {
             </Typography>
           </SingleCardItem>
           <SingleCardItem>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              sx={{ color: "white" }}
+            >
               08/2023 - 08/2023 (2 weeks) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
               <a
                 href="https://corp.moneyforward.com/en/"
@@ -80,7 +95,12 @@ const Experiences = () => {
             </Typography>
           </SingleCardItem>
           <SingleCardItem>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              sx={{ color: "white" }}
+            >
               07/2023 (1 day) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
               <a
                 href="https://www.hpe.com/us/en/home.html"
@@ -93,7 +113,12 @@ const Experiences = () => {
             </Typography>
           </SingleCardItem>
           <SingleCardItem>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              sx={{ color: "white" }}
+            >
               08/2022 - 09/2022 (5 days) &nbsp;&nbsp;&nbsp;&nbsp; Internship,{" "}
               <a
                 href="https://www.canon-its.co.jp/"
@@ -113,7 +138,12 @@ const Experiences = () => {
             </ul>
           </SingleCardItem>
           <SingleCardItem>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              sx={{ color: "white" }}
+            >
               11/2020 - 05/2021 &nbsp;&nbsp;&nbsp;&nbsp; Reserch Assistant, Kobe
               University / Osaka Chamber of Commerce and Industory
             </Typography>
@@ -130,7 +160,12 @@ const Experiences = () => {
             </ul>
           </SingleCardItem>
           <SingleCardItem>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              sx={{ color: "white" }}
+            >
               07/2020 - 03/2021 &nbsp;&nbsp;&nbsp;&nbsp; Reserch Assistant, Kobe
               University / Tokushima Prefectual Police
             </Typography>

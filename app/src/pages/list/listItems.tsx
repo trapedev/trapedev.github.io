@@ -15,45 +15,45 @@ const ListItems = () => {
     <>
       <ListItemButton href="/#/">
         <ListItemIcon>
-          <DashboardIcon />
+          <DashboardIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Home"} />
+        <ListItemText primary={"Home"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/education">
         <ListItemIcon>
-          <SchoolIcon />
+          <SchoolIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Education"} />
+        <ListItemText primary={"Education"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/experiences">
         <ListItemIcon>
-          <DoneIcon />
+          <DoneIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Experiences"} />
+        <ListItemText primary={"Experiences"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/academic-paper">
         <ListItemIcon>
-          <MenuBookIcon />
+          <MenuBookIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Academic Paper"} />
+        <ListItemText primary={"Academic Paper"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/accomplishments">
         <ListItemIcon>
-          <EmojiEventsIcon />
+          <EmojiEventsIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Accomplishments"} />
+        <ListItemText primary={"Accomplishments"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/skills">
         <ListItemIcon>
-          <PsychologyIcon />
+          <PsychologyIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Skills"} />
+        <ListItemText primary={"Skills"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/blog">
         <ListItemIcon>
-          <EditNoteIcon />
+          <EditNoteIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Blog"} />
+        <ListItemText primary={"Blog"} sx={{ color: "white" }} />
       </ListItemButton>
     </>
   );

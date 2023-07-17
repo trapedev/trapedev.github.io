@@ -87,7 +87,10 @@ const mdTheme = createTheme({
     },
     secondary: {
       // This is green.A700 as hex.
-      main: "#87ceeb",
+      main: "#23252f",
+    },
+    background: {
+      default: "#778899",
     },
   },
 });
@@ -158,13 +161,22 @@ export default function Template(props: TemplateProps) {
             />
           </Toolbar>
         </AppBar>
-        <Drawer variant="permanent" open={open}>
+        <Drawer
+          variant="permanent"
+          open={open}
+          sx={{
+            "& .MuiDrawer-paper": {
+              backgroundColor: "#23252f",
+            },
+          }}
+        >
           <Toolbar
             sx={{
               display: "flex",
               alignItems: "center",
               justifyContent: "flex-end",
               px: [1],
+              backgroundColor: "slategray",
             }}
           >
             <IconButton onClick={toggleDrawer}>
@@ -179,10 +191,7 @@ export default function Template(props: TemplateProps) {
         <Box
           component="main"
           sx={{
-            backgroundColor: (theme) =>
-              theme.palette.mode === "light"
-                ? theme.palette.grey[100]
-                : theme.palette.grey[900],
+            backgroundColor: (theme) => theme.palette.background.default,
             flexGrow: 1,
             height: "100vh",
             overflow: "auto",
@@ -191,22 +200,22 @@ export default function Template(props: TemplateProps) {
           <Toolbar />
           <div className="fade-in-up">{children}</div>
         </Box>
-        <Footer>
+        <Footer sx={{ backgroundColor: "#23252f" }}>
           <Container
             maxWidth="lg"
             sx={{ display: "flex", justifyContent: "center" }}
           >
             <HyperLink
               url={"https://github.com/trapedev"}
-              data={<GitHub sx={{ ml: 1, mr: 1 }} />}
+              data={<GitHub sx={{ ml: 1, mr: 1, color: "white" }} />}
             />
             <HyperLink
               url={"https://www.instagram.com/trape.dev/"}
-              data={<Instagram sx={{ ml: 1, mr: 1 }} />}
+              data={<Instagram sx={{ ml: 1, mr: 1, color: "white" }} />}
             />
             <HyperLink
               url={"https://twitter.com/trape_dev"}
-              data={<Twitter sx={{ ml: 1, mr: 1 }} />}
+              data={<Twitter sx={{ ml: 1, mr: 1, color: "white" }} />}
             />
           </Container>
         </Footer>

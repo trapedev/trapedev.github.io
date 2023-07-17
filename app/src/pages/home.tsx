@@ -7,10 +7,20 @@ const Home = () => {
     <Template name={"Home"}>
       <BaseContainer>
         <BaseItem xs={12}>
-          <Typography gutterBottom variant="h4" component="div">
+          <Typography
+            gutterBottom
+            variant="h4"
+            component="div"
+            sx={{ color: "white" }}
+          >
             Biography
           </Typography>
-          <Typography gutterBottom variant="h6" component="div">
+          <Typography
+            gutterBottom
+            variant="h6"
+            component="div"
+            sx={{ color: "lightgray" }}
+          >
             My name is Keiichiro KIMURA, and I am a first-year master's student
             in the Graduate School of Engineering at Kobe University. I am
             conducting research in information security, with my research theme
