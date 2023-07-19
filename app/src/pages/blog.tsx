@@ -1,11 +1,6 @@
 import { Typography } from "@mui/material";
 import Template from "components/views/template";
-import {
-  BaseContainer,
-  BaseItem,
-  HyperLink,
-  SingleCardItem,
-} from "components/views/ui";
+import { BaseContainer, BaseItem, SingleCardItem } from "components/views/ui";
 
 const Blog = () => {
   return (
@@ -24,9 +19,7 @@ export default Blog;
 const First = () => {
   return (
     <SingleCardItem>
-      <Typography gutterBottom variant="h5" component="div">
-        <HyperLink url={"/#"} data={<>{"Initial Blog"}</>} />
-      </Typography>
+      <Typography gutterBottom variant="h5" component="div"></Typography>
     </SingleCardItem>
   );
 };

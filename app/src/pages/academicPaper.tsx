@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import Template from "components/views/template";
 import {
   BaseContainer,
@@ -40,8 +41,23 @@ const First = () => {
           />
         }
       />
-      <SecondaryText data="Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii" />
-      <SecondaryText data="Computer Security Symposium 2022,pp.393-399, 2022-10-27" />
+      <Typography
+        gutterBottom
+        variant="h5"
+        component="div"
+        sx={{ color: "white" }}
+      >
+        Computer Security Symposium 2022
+      </Typography>
+      <Typography
+        gutterBottom
+        variant="h6"
+        component="div"
+        sx={{ color: "white" }}
+      >
+        Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii
+      </Typography>
+      <SecondaryText data="pp.393-399, 2022-10-27" />
     </SingleCardItem>
   );
 };
@@ -65,8 +81,23 @@ const Second = () => {
           />
         }
       />
-      <SecondaryText data="Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii" />
-      <SecondaryText data="Forum on Information Technology 2022, pp.33-40, 2022-08-30" />
+      <Typography
+        gutterBottom
+        variant="h5"
+        component="div"
+        sx={{ color: "white" }}
+      >
+        Forum on Information Technology 2022
+      </Typography>
+      <Typography
+        gutterBottom
+        variant="h6"
+        component="div"
+        sx={{ color: "white" }}
+      >
+        Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii
+      </Typography>
+      <SecondaryText data="pp.33-40, 2022-08-30" />
     </SingleCardItem>
   );
 };

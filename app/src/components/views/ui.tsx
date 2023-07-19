@@ -43,10 +43,11 @@ export const EnhancedTableHead = (props: EnhancedTableHeadProps) => {
 
 interface TitleProps {
   title: ReactNode;
+  hyperLink?: string;
 }
 
 export const Title = (props: TitleProps) => {
-  const { title } = props;
+  const { title, hyperLink } = props;
   return (
     <Typography
       gutterBottom
@@ -54,7 +55,73 @@ export const Title = (props: TitleProps) => {
       component="div"
       sx={{ color: "white" }}
     >
-      {title}
+      {hyperLink !== undefined ? (
+        <a href={hyperLink} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a>
+      ) : (
+        <>{title}</>
+      )}
+    </Typography>
+  );
+};
+
+interface DoubleTitleProps {
+  title1: ReactNode;
+  hyperLink1?: string;
+  title2: ReactNode;
+  hyperLink2?: string;
+}
+
+export const DoubleTitle = (props: DoubleTitleProps) => {
+  const { title1, hyperLink1, title2, hyperLink2 } = props;
+  return (
+    <Typography
+      gutterBottom
+      variant="h5"
+      component="div"
+      sx={{ color: "white" }}
+    >
+      {hyperLink1 !== undefined ? (
+        <a href={hyperLink1} target="_blank" rel="noopener noreferrer">
+          {title1}
+        </a>
+      ) : (
+        <>{title1}</>
+      )}{" "}
+      /{" "}
+      {hyperLink2 !== undefined ? (
+        <a href={hyperLink2} target="_blank" rel="noopener noreferrer">
+          {title2}
+        </a>
+      ) : (
+        <>{title2}</>
+      )}
+    </Typography>
+  );
+};
+
+interface SubTitleProps {
+  title: ReactNode;
+  hyperLink?: string;
+}
+
+export const SubTitle = (props: SubTitleProps) => {
+  const { title, hyperLink } = props;
+  return (
+    <Typography
+      gutterBottom
+      variant="h6"
+      component="div"
+      sx={{ color: "white" }}
+    >
+      {hyperLink !== undefined ? (
+        <a href={hyperLink} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a>
+      ) : (
+        <>{title}</>
+      )}
     </Typography>
   );
 };

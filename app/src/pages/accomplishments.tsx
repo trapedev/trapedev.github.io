@@ -4,6 +4,7 @@ import {
   BaseItem,
   SecondaryText,
   SingleCardItem,
+  SubTitle,
   Title,
 } from "components/views/ui";
 
@@ -24,9 +25,8 @@ export default Accomplishments;
 const First = () => {
   return (
     <SingleCardItem>
-      <Title
-        title={<>02/2022 &nbsp;&nbsp;&nbsp;&nbsp; TOEIC L&R Score:825</>}
-      />
+      <Title title={"TOEIC L&R Score:825"} />
+      <SubTitle title={"02/2022"} />
       <SecondaryText data={"Listening : 420, Reading : 405"} />
     </SingleCardItem>
   );
