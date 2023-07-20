@@ -214,3 +214,20 @@ export const SingleCardItem = (props: SingleCardItemProps) => {
     </Card>
   );
 };
+
+interface BulletPointsListProps {
+  items: ReactNode[];
+}
+
+export const BulletPointsList = (props: BulletPointsListProps) => {
+  const { items } = props;
+  return (
+    <ul className="list">
+      {items.map((item, i) => (
+        <li>
+          <SecondaryText key={i} data={item} />
+        </li>
+      ))}
+    </ul>
+  );
+};

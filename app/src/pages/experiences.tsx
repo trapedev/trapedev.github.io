@@ -2,9 +2,9 @@ import Template from "components/views/template";
 import {
   BaseContainer,
   BaseItem,
+  BulletPointsList,
   DoubleTitle,
   HyperLink,
-  SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
@@ -21,34 +21,22 @@ const Experiences = () => {
               hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
             />
             <SubTitle title={"08/2021 - Present (Internship)"} />
-            <ul className="list">
-              <li>
-                <SecondaryText
-                  data={
-                    <>
-                      Developing and operating cram schools business management
-                      service named{" "}
-                      <HyperLink
-                        url="https://www.juksl.com/"
-                        data={"`ジュクスル`"}
-                      />
-                    </>
-                  }
-                />
-              </li>
-              <li>
-                <SecondaryText data="In charge of front-end (Next.js/TypeScript) and back-end(Golang) development." />
-              </li>
-              <li>
-                <SecondaryText data="Implemented the transition from monolithic to microservices, as the service is extended." />
-              </li>
-              <li>
-                <SecondaryText data="Increased processing speed by approximately 17% by improving business logic algorithms." />
-              </li>
-              <li>
-                <SecondaryText data="Implemented the function that generate and update some of the code automatically to implementation operational efficiency." />
-              </li>
-            </ul>
+            <BulletPointsList
+              items={[
+                <>
+                  Developing and operating cram schools business management
+                  service named{" "}
+                  <HyperLink
+                    url="https://www.juksl.com/"
+                    data={"`ジュクスル`"}
+                  />
+                </>,
+                "In charge of front-end (Next.js/TypeScript) and back-end(Golang) development.",
+                "Implemented the transition from monolithic to microservices, as the service is extended.",
+                "Increased processing speed by approximately 17% by improving business logic algorithms.",
+                "Implemented the function that generate and update some of the code automatically to implementation operational efficiency.",
+              ]}
+            />
           </SingleCardItem>
           <SingleCardItem>
             <Title title={"Sony Corp."} hyperLink="https://www.sony.com/en/" />
@@ -87,14 +75,12 @@ const Experiences = () => {
               hyperLink="https://www.canon-its.co.jp/"
             />
             <SubTitle title={"08/2022 - 09/2022 (Internship)"} />
-            <ul className="list">
-              <li>
-                <SecondaryText data="Analyzed malware and ransomware." />
-              </li>
-              <li>
-                <SecondaryText data="Got the 1st score in CTF contest among the interns." />
-              </li>
-            </ul>
+            <BulletPointsList
+              items={[
+                "Analyzed malware and ransomware.",
+                "Got the 1st score in CTF contest among the interns.",
+              ]}
+            />
           </SingleCardItem>
           <SingleCardItem>
             <DoubleTitle
@@ -104,16 +90,11 @@ const Experiences = () => {
               hyperLink2="https://www.osaka.cci.or.jp/e/"
             />
             <SubTitle title={"11/2020 - 05/2021 (Reserch Assistant)"} />
-            <ul className="list">
-              <li>
-                <SecondaryText
-                  data="Developed e-learning system in PHP as a part of the
-                  “サイバーセキュリティお助け隊サービス(Cyber Security Help Team
-                  Service)” sponsored by the Osaka Chamber of Commerce and
-                  Industry."
-                />
-              </li>
-            </ul>
+            <BulletPointsList
+              items={[
+                "Developed e-learning system in PHP as a part of the “サイバーセキュリティお助け隊サービス(Cyber Security Help Team Service)” sponsored by the Osaka Chamber of Commerce and Industry.",
+              ]}
+            />
           </SingleCardItem>
           <SingleCardItem>
             <DoubleTitle
@@ -123,26 +104,20 @@ const Experiences = () => {
               hyperLink2="https://www.police.pref.tokushima.jp/"
             />
             <SubTitle title={"07/2020 - 03/2021 (Reserch Assistant)"} />
-            <ul className="list">
-              <li>
-                <SecondaryText
-                  data={
-                    <>
-                      Developed game-style cyber security education application
-                      named{" "}
-                      <HyperLink
-                        url="https://www.tcn.jp/news/detail/5/"
-                        data={"`すごセク`"}
-                      />{" "}
-                      in JavaScript.
-                    </>
-                  }
-                />
-              </li>
-              <li>
-                <SecondaryText data="Analyzed data of cyber security awareness from the collected data using R language." />
-              </li>
-            </ul>
+            <BulletPointsList
+              items={[
+                <>
+                  Developed game-style cyber security education application
+                  named{" "}
+                  <HyperLink
+                    url="https://www.tcn.jp/news/detail/5/"
+                    data={"`すごセク`"}
+                  />{" "}
+                  in JavaScript.
+                </>,
+                "Analyzed data of cyber security awareness from the collected data using R language.",
+              ]}
+            />
           </SingleCardItem>
         </BaseItem>
       </BaseContainer>

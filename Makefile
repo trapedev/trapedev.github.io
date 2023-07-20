@@ -6,6 +6,7 @@ build:
 	&& cp -R app/build/* docs/
 
 history:
-	git add . \
+	git pull \
+	&& git add . \
 	&& git commit -m "commit all changes" \
 	&& git push origin HEAD
