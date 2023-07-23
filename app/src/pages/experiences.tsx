@@ -66,7 +66,13 @@ const Experiences = () => {
               hyperLink="https://onecareer.co.jp/"
             />
             <SubTitle
-              title={"07/2023 - 07/2023 (Internship) ... PLAN TO JOIN !"}
+              title={"07/2023 - 07/2023 (Internship)"}
+            />
+            <BulletPointsList
+              items={[
+                "Analyzed the Nginx access logs using the alp command.",
+                "Performed web performance tuning (solving the N+1 problem, optimizing SQL, reducing the number of system calls) and managed to improve processing speed by approximately 20 times.",
+              ]}
             />
           </SingleCardItem>
           <SingleCardItem>
