@@ -53,21 +53,19 @@ const Experiences = () => {
               title={"08/2023 - 08/2023 (Internship) ... PLAN TO JOIN !"}
             />
           </SingleCardItem>
-          <SingleCardItem>
+          {/* <SingleCardItem>
             <Title
               title={"Hewlett Packard Enterprise"}
               hyperLink="https://www.hpe.com/us/en/home.html"
             />
             <SubTitle title={"07/2023 (Internship) ... PLAN TO JOIN !"} />
-          </SingleCardItem>
+          </SingleCardItem> */}
           <SingleCardItem>
             <Title
               title={"ONE CAREER Inc."}
               hyperLink="https://onecareer.co.jp/"
             />
-            <SubTitle
-              title={"07/2023 - 07/2023 (Internship)"}
-            />
+            <SubTitle title={"07/2023 - 07/2023 (Internship)"} />
             <BulletPointsList
               items={[
                 "Analyzed the Nginx access logs using the alp command.",
