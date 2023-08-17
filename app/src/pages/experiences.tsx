@@ -50,7 +50,13 @@ const Experiences = () => {
               hyperLink="https://corp.moneyforward.com/en/"
             />
             <SubTitle
-              title={"08/2023 - 08/2023 (Internship) ... PLAN TO JOIN !"}
+              title={"08/2023 - 08/2023 (Internship)"}
+            />
+            <BulletPointsList
+              items={[
+                "Implemented a receipt parser for a mail order service that is actually in operation in Golang.",
+                "Created the k8s manifest using Kustomize, and deployed and released the implemented service to the production environment.",
+              ]}
             />
           </SingleCardItem>
           {/* <SingleCardItem>
