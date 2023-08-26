@@ -38,7 +38,7 @@ const Home = () => {
                 component="div"
                 sx={{ color: "white" }}
               >
-                Biography
+                $ whoami
               </Typography>
               <Typography
                 gutterBottom
