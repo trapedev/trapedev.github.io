@@ -39,9 +39,9 @@ const Experiences = () => {
             />
           </SingleCardItem>
           <SingleCardItem>
-            <Title title={"Sony Corp."} hyperLink="https://www.sony.com/en/" />
+            <Title title={"Sony"} hyperLink="https://www.sony.com/en/" />
             <SubTitle
-              title={"08/2023 - 09/2023 (Internship) ... PLAN TO JOIN !"}
+              title={"08/28/2023 - 09/08/2023 (Internship) ... PLAN TO JOIN !"}
             />
           </SingleCardItem>
           <SingleCardItem>
@@ -71,7 +71,7 @@ const Experiences = () => {
               title={"ONE CAREER Inc."}
               hyperLink="https://onecareer.co.jp/"
             />
-            <SubTitle title={"07/2023 - 07/2023 (Internship)"} />
+            <SubTitle title={"07/22/2023 - 07/23/2023 (Internship)"} />
             <BulletPointsList
               items={[
                 "Analyzed the Nginx access logs using the alp command.",
@@ -84,7 +84,7 @@ const Experiences = () => {
               title={"Canon IT Solutions Inc."}
               hyperLink="https://www.canon-its.co.jp/"
             />
-            <SubTitle title={"08/2022 - 09/2022 (Internship)"} />
+            <SubTitle title={"08/29/2022 - 09/02/2022 (Internship)"} />
             <BulletPointsList
               items={[
                 "Analyzed malware and ransomware.",
