@@ -50,7 +50,7 @@ const Experiences = () => {
               hyperLink="https://corp.moneyforward.com/en/"
             />
             <SubTitle
-              title={"08/2023 - 08/2023 (Internship)"}
+              title={"08/01/2023 - 08/16/2023 (Internship)"}
             />
             <BulletPointsList
               items={[
