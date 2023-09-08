@@ -41,8 +41,14 @@ const Experiences = () => {
           <SingleCardItem>
             <Title title={"Sony"} hyperLink="https://www.sony.com/en/" />
             <SubTitle
-              title={"08/28/2023 - 09/08/2023 (Internship) ... PLAN TO JOIN !"}
+              title={"08/28/2023 - 09/08/2023 (Internship)"}
             />
+	    <BulletPointsList
+              items={[
+		"Learned about SDL (Security Development Lifecycle). Specifically, they learned about recurrence prevention activities, risk assessment, and security testing through practice.",
+		"Implemented a fuzzing tool for Bluetooth BR/EDR in C. Using libbluetooth-dev library, fuzzing for 5 protocols including L2CAP is enabled.",
+	      ]} 
+	    />
           </SingleCardItem>
           <SingleCardItem>
             <Title
