@@ -45,7 +45,7 @@ const Experiences = () => {
             />
 	    <BulletPointsList
               items={[
-		"Learned about SDL (Security Development Lifecycle). Specifically, they learned about recurrence prevention activities, risk assessment, and security testing through practice.",
+		"Learned about Sony's SDL (Security Development Lifecycle). Specifically, I learned about recurrence prevention activities, risk assessment, and security testing through practice.",
 		"Implemented a fuzzing tool for Bluetooth BR/EDR in C. Using libbluetooth-dev library, fuzzing for 5 protocols including L2CAP is enabled.",
 	      ]} 
 	    />
