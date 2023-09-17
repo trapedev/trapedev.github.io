@@ -29,7 +29,7 @@ import { WINDOW_INNER_HEIGHT } from "models/constants";
 // ** Views Import
 import ListItems from "pages/list/listItems";
 import { Container } from "@mui/material";
-import { GitHub, Instagram, Twitter } from "@mui/icons-material";
+import { GitHub, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
 
 import "./template.css";
 
@@ -216,6 +216,10 @@ export default function Template(props: TemplateProps) {
             <HyperLink
               url={"https://twitter.com/trape_dev"}
               data={<Twitter sx={{ ml: 1, mr: 1, color: "white" }} />}
+            />
+            <HyperLink 
+              url="https://www.linkedin.com/in/keiichiro-kimura-aaab62291"
+              data={<LinkedIn sx={{ ml: 1, mr: 1, color: "white" }} />}
             />
           </Container>
         </Footer>

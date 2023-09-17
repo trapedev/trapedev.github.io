@@ -102,7 +102,7 @@ const Experiences = () => {
             <DoubleTitle
               title1={"Kobe University"}
               hyperLink1="http://www.eng.kobe-u.ac.jp/en/"
-              title2={"Osaka Chamber of Commerce and Industory"}
+              title2={"Osaka Chamber of Commerce and Industry"}
               hyperLink2="https://www.osaka.cci.or.jp/e/"
             />
             <SubTitle title={"11/2020 - 05/2021 (Reserch Assistant)"} />
