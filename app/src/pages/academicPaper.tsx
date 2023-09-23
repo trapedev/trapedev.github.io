@@ -13,6 +13,8 @@ const AcademicPaper = () => {
     <Template name={"Academic Paper"}>
       <BaseContainer>
         <BaseItem xs={12}>
+          <CANDAR2023 />
+          <ISEC2023 />
           <CSS2023 />
           <CSS2022 />
           <FIT2022 />
@@ -33,7 +35,7 @@ const CSS2022 = () => {
         }
         hyperLink="https://www.iwsec.org/css/2022/program.html#2A4-I"
       />
-      <Title title={"Computer Security Symposium 2022"} />
+      <Title title={"Computer Security Symposium (CSS) 2022"} />
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
@@ -51,7 +53,7 @@ const FIT2022 = () => {
         }
         hyperLink="https://onsite.gakkai-web.net/fit2022/abstract/data/html/program/l.html#s1k"
       />
-      <Title title={"Forum on Information Technology 2022"} />
+      <Title title={"Forum on Information Technology (FIT) 2022"} />
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
@@ -69,11 +71,48 @@ const CSS2023 = () => {
         }
         hyperLink="https://www.iwsec.org/css/2023/program.html#3E3"
       />
-      <Title title={"Computer Security Symposium 2023"} />
+      <Title title={"Computer Security Symposium (CSS) 2023"} />
       <SubTitle
         title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      {/* <SecondaryText data="pp.33-40, 2022-08-30" /> */}
+      <SecondaryText data="※To be appear" />
+    </SingleCardItem>
+  );
+};
+
+const ISEC2023 = () => {
+  return (
+    <SingleCardItem>
+      <Title
+        title={
+          "A Proposed Cryptographic Key Hijacking Attack Using the Power-Saving Mode against Bluetooth BR/EDR"
+        }
+        hyperLink="https://ken.ieice.org/ken/paper/20231110nCyv/"
+      />
+      <Title title={"ISEC 2023"} />
+      <SubTitle
+        title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
+      />
+      <SecondaryText data="※To be appear" />
+    </SingleCardItem>
+  );
+};
+
+const CANDAR2023 = () => {
+  return (
+    <SingleCardItem>
+      <Title
+        title={
+          "A New Approach to Disabling SSL/TLS: Man-in-the-Middle Attacks are still Effective"
+        }
+        hyperLink="https://is-candar.org/"
+      />
+      <Title title={"The Eleventh International Symposium on Computing and Networking (CANDAR) 2023"} />
+      <SubTitle
+        title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
+      />
+      <SecondaryText data="Peer-reviewed international conference" />
+      <SecondaryText data="※To be appear" />
     </SingleCardItem>
   );
 };
