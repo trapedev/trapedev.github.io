@@ -89,7 +89,7 @@ const ISEC2023 = () => {
         }
         hyperLink="https://ken.ieice.org/ken/paper/20231110nCyv/"
       />
-      <Title title={"ISEC 2023"} />
+      <Title title={"Information Security (ISEC) 2023"} />
       <SubTitle
         title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
       />

@@ -1,5 +1,6 @@
 build:
-	@cd app \
+	@git pull \
+	&& cd app \
 	&& yarn build \
 	&& cd .. \
 	&& rm -rf docs/* \
