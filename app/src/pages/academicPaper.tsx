@@ -85,7 +85,7 @@ const ISEC2023 = () => {
     <SingleCardItem>
       <Title
         title={
-          "A Proposed Cryptographic Key Hijacking Attack Using the Power-Saving Mode against Bluetooth BR/EDR"
+          "A Proposed Link Key Hijacking Attack Using the Power-Saving Mode against Bluetooth BR/EDR"
         }
         hyperLink="https://ken.ieice.org/ken/paper/20231110nCyv/"
       />
