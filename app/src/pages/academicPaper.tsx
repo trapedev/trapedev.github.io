@@ -75,7 +75,7 @@ const CSS2023 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      <SecondaryText data="※To be appear" />
+      <SecondaryText data="pp.1136-1142" />
     </SingleCardItem>
   );
 };
