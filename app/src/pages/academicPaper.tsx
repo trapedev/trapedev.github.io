@@ -93,7 +93,7 @@ const ISEC2023 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      <SecondaryText data="※To be appear" />
+      <SecondaryText data="pp.103-109, 2023-11-02" />
     </SingleCardItem>
   );
 };
