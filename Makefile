@@ -3,7 +3,7 @@ build:
 	&& cd app \
 	&& yarn build \
 	&& cd .. \
-	&& rm -rf docs/* \
+	&& find docs -type f ! -name "CNAME" -exec rm -f {} \; \
 	&& cp -R app/build/* docs/
 
 history:
