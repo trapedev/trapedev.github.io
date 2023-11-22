@@ -33,7 +33,7 @@ const CSS2022 = () => {
         title={
           "Implementation of Man-in-the-Middle Attacks that bypass SSL/TLS and allow eavesdropping/falsification: Public Wireless LAN Vulnerabilities and Threats"
         }
-        hyperLink="https://www.iwsec.org/css/2022/program.html#2A4-I"
+        hyperLink="https://cir.nii.ac.jp/crid/1050013087466839168"
       />
       <Title title={"Computer Security Symposium (CSS) 2022"} />
       <SubTitle
@@ -51,7 +51,7 @@ const FIT2022 = () => {
         title={
           "New Proposals and Threats of Man-in-the-Middle Attacks to Evade SSL/TLS: Evaluation and Consideration by Implementation"
         }
-        hyperLink="https://onsite.gakkai-web.net/fit2022/abstract/data/html/program/l.html#s1k"
+        hyperLink="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202236004551288"
       />
       <Title title={"Forum on Information Technology (FIT) 2022"} />
       <SubTitle
@@ -69,13 +69,13 @@ const CSS2023 = () => {
         title={
           "A New Attack Method on Bluetooth BR/EDR and Its Demonstration: Vulnerability of Power-Saving Mode and Its Threat"
         }
-        hyperLink="https://www.iwsec.org/css/2023/program.html#3E3"
+        hyperLink="https://cir.nii.ac.jp/crid/1050016494531112832"
       />
       <Title title={"Computer Security Symposium (CSS) 2023"} />
       <SubTitle
         title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      <SecondaryText data="pp.1136-1142" />
+      <SecondaryText data="pp.1136-1142, 2023-10-23" />
     </SingleCardItem>
   );
 };
