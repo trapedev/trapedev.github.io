@@ -112,7 +112,6 @@ const CANDAR2023 = () => {
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
       <SecondaryText data="Peer-reviewed international conference" />
-      <SecondaryText data="※To be appear" />
     </SingleCardItem>
   );
 };
