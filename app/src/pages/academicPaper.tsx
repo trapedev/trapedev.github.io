@@ -105,7 +105,7 @@ const CANDAR2023 = () => {
         title={
           "A New Approach to Disabling SSL/TLS: Man-in-the-Middle Attacks are still Effective"
         }
-        hyperLink="https://is-candar.org/"
+        hyperLink="https://is-candar.org/program#trackd1"
       />
       <Title title={"The Eleventh International Symposium on Computing and Networking (CANDAR) 2023"} />
       <SubTitle
