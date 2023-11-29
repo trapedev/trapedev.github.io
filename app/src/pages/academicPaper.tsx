@@ -105,13 +105,14 @@ const CANDAR2023 = () => {
         title={
           "A New Approach to Disabling SSL/TLS: Man-in-the-Middle Attacks are still Effective"
         }
-        hyperLink="https://is-candar.org/program#trackd1"
+        hyperLink="https://www.cs.hiroshima-u.ac.jp/Proceedings23/CANDAR%202023/pdfs/CANDAR2023-1SROm9fDeMyoBrKU1vPn44/067000a011/067000a011.pdf"
       />
       <Title title={"The Eleventh International Symposium on Computing and Networking (CANDAR) 2023"} />
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
       <SecondaryText data="Peer-reviewed international conference" />
+      <SecondaryText data="pp.11-19, 2023-11-28" />
     </SingleCardItem>
   );
 };
