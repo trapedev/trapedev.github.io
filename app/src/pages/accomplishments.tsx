@@ -13,7 +13,8 @@ const Accomplishments = () => {
     <Template name={"Accomplishments"}>
       <BaseContainer>
         <BaseItem xs={12}>
-          <First />
+          <ISEC2023 />
+          <TOEIC />
         </BaseItem>
       </BaseContainer>
     </Template>
@@ -22,7 +23,7 @@ const Accomplishments = () => {
 
 export default Accomplishments;
 
-const First = () => {
+const TOEIC = () => {
   return (
     <SingleCardItem>
       <Title title={"TOEIC L&R Score:825"} />
@@ -31,3 +32,13 @@ const First = () => {
     </SingleCardItem>
   );
 };
+
+const ISEC2023 = () => {
+  return (
+    <SingleCardItem>
+      <Title title={"2023年度 情報セキュリティ研究奨励賞 受賞"} />
+      <SubTitle title={"12/2023"} />
+      <SecondaryText data={"SCIS 2024@Nagasaki にて表彰予定"} />
+    </SingleCardItem>
+  );
+}

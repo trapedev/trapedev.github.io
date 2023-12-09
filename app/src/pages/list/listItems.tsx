@@ -8,7 +8,7 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import PsychologyIcon from "@mui/icons-material/Psychology";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import DoneIcon from "@mui/icons-material/Done";
-import EditNoteIcon from "@mui/icons-material/EditNote";
+// import EditNoteIcon from "@mui/icons-material/EditNote";
 
 const ListItems = () => {
   return (
@@ -49,12 +49,12 @@ const ListItems = () => {
         </ListItemIcon>
         <ListItemText primary={"Skills"} sx={{ color: "white" }} />
       </ListItemButton>
-      <ListItemButton href="/#/blog">
+      {/* <ListItemButton href="/#/blog">
         <ListItemIcon>
           <EditNoteIcon sx={{ color: "white" }} />
         </ListItemIcon>
         <ListItemText primary={"Blog"} sx={{ color: "white" }} />
-      </ListItemButton>
+      </ListItemButton> */}
     </>
   );
 };
