@@ -36,9 +36,12 @@ const TOEIC = () => {
 const ISEC2023 = () => {
   return (
     <SingleCardItem>
-      <Title title={"2023年度 情報セキュリティ研究奨励賞 受賞"} />
+      <Title
+        title={"2023年度 情報セキュリティ研究奨励賞 受賞"}
+        hyperLink="https://www.ieice.org/~isec/award-encouragement.html"
+      />
       <SubTitle title={"12/2023"} />
       <SecondaryText data={"SCIS 2024@Nagasaki にて表彰予定"} />
     </SingleCardItem>
   );
-}
+};
