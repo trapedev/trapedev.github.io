@@ -39,6 +39,12 @@ const Experiences = () => {
             />
           </SingleCardItem>
           <SingleCardItem>
+            <Title title={"Nomura Researh Institute (NRI)"}/>
+            <SubTitle
+              title={"01/15/2024 - 01/19/2024 (Internship)"}
+            />
+          </SingleCardItem>
+          <SingleCardItem>
             <Title title={"Sony"} hyperLink="https://www.sony.com/en/" />
             <SubTitle
               title={"08/28/2023 - 09/08/2023 (Internship)"}
