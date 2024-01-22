@@ -44,7 +44,12 @@ const Experiences = () => {
               hyperLink="https://www.nri.com/en"
             />
             <SubTitle title={"01/15/2024 - 01/19/2024 (Internship)"} />
-            {/* <BulletPointsList items={[""]} /> */}
+            <BulletPointsList
+              items={[
+                "Built an access log analysis tool for a payment service in actual operation.",
+                "The construction environment was built on AWS, allowing the participants to experience the actual business use of public cloud computing.",
+              ]}
+            />
           </SingleCardItem>
           <SingleCardItem>
             <Title title={"Sony"} hyperLink="https://www.sony.com/en/" />
