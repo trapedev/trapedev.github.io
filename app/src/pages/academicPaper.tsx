@@ -73,7 +73,9 @@ const CSS2023 = () => {
       />
       <Title title={"Computer Security Symposium (CSS) 2023"} />
       <SubTitle
-        title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
+        title={
+          "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
+        }
       />
       <SecondaryText data="pp.1136-1142, 2023-10-23" />
     </SingleCardItem>
@@ -91,7 +93,9 @@ const ISEC2023 = () => {
       />
       <Title title={"Information Security (ISEC) 2023"} />
       <SubTitle
-        title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
+        title={
+          "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
+        }
       />
       <SecondaryText data="pp.103-109, 2023-11-02" />
     </SingleCardItem>
@@ -107,7 +111,11 @@ const CANDAR2023 = () => {
         }
         hyperLink="https://www.cs.hiroshima-u.ac.jp/Proceedings23/CANDAR%202023/pdfs/CANDAR2023-1SROm9fDeMyoBrKU1vPn44/067000a011/067000a011.pdf"
       />
-      <Title title={"The Eleventh International Symposium on Computing and Networking (CANDAR) 2023"} />
+      <Title
+        title={
+          "The Eleventh International Symposium on Computing and Networking (CANDAR) 2023"
+        }
+      />
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />

@@ -39,31 +39,29 @@ const Experiences = () => {
             />
           </SingleCardItem>
           <SingleCardItem>
-            <Title title={"Nomura Researh Institute (NRI)"}/>
-            <SubTitle
-              title={"01/15/2024 - 01/19/2024 (Internship)"}
+            <Title
+              title={"Nomura Researh Institute (NRI)"}
+              hyperLink="https://www.nri.com/en"
             />
+            <SubTitle title={"01/15/2024 - 01/19/2024 (Internship)"} />
+            {/* <BulletPointsList items={[""]} /> */}
           </SingleCardItem>
           <SingleCardItem>
             <Title title={"Sony"} hyperLink="https://www.sony.com/en/" />
-            <SubTitle
-              title={"08/28/2023 - 09/08/2023 (Internship)"}
-            />
-	    <BulletPointsList
+            <SubTitle title={"08/28/2023 - 09/08/2023 (Internship)"} />
+            <BulletPointsList
               items={[
-		"Learned about Sony's SDL (Security Development Lifecycle). Specifically, I learned about recurrence prevention activities, risk assessment, and security testing through practice.",
-		"Implemented a fuzzing tool for Bluetooth BR/EDR in C. Using libbluetooth-dev library, fuzzing for 5 protocols including L2CAP is enabled.",
-	      ]} 
-	    />
+                "Learned about Sony's SDL (Security Development Lifecycle). Specifically, I learned about recurrence prevention activities, risk assessment, and security testing through practice.",
+                "Implemented a fuzzing tool for Bluetooth BR/EDR in C. Using libbluetooth-dev library, fuzzing for 5 protocols including L2CAP is enabled.",
+              ]}
+            />
           </SingleCardItem>
           <SingleCardItem>
             <Title
               title={"Money Forward Inc."}
               hyperLink="https://corp.moneyforward.com/en/"
             />
-            <SubTitle
-              title={"08/01/2023 - 08/16/2023 (Internship)"}
-            />
+            <SubTitle title={"08/01/2023 - 08/16/2023 (Internship)"} />
             <BulletPointsList
               items={[
                 "Implemented a receipt parser for a mail order service that is actually in operation in Golang.",
