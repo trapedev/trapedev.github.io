@@ -109,7 +109,7 @@ const CANDAR2023 = () => {
         title={
           "A New Approach to Disabling SSL/TLS: Man-in-the-Middle Attacks are still Effective"
         }
-        hyperLink="https://www.cs.hiroshima-u.ac.jp/Proceedings23/CANDAR%202023/pdfs/CANDAR2023-1SROm9fDeMyoBrKU1vPn44/067000a011/067000a011.pdf"
+        hyperLink="https://ieeexplore.ieee.org/document/10406178"
       />
       <Title
         title={
