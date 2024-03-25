@@ -2,7 +2,6 @@ import Template from "components/views/template";
 import {
   BaseContainer,
   BaseItem,
-  SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
@@ -16,23 +15,18 @@ const Skills = () => {
           <Title title="Coding Lang." />
           <SingleCardItem>
             <SubTitle title={"Golang"} />
-            <SecondaryText data="2 years ~ 3 years" />
           </SingleCardItem>
           <SingleCardItem>
             <SubTitle title={"TypeScript"} />
-            <SecondaryText data="1 years ~ 2 years" />
           </SingleCardItem>
           <SingleCardItem>
             <SubTitle title={"JavaScript"} />
-            <SecondaryText data="1 years ~ 2 years" />
           </SingleCardItem>
           <SingleCardItem>
             <SubTitle title={"Python"} />
-            <SecondaryText data="6 months ~ 1 year" />
           </SingleCardItem>
           <SingleCardItem>
             <SubTitle title={"Java"} />
-            <SecondaryText data="6 months ~ 1 year" />
           </SingleCardItem>
         </BaseItem>
       </BaseContainer>
