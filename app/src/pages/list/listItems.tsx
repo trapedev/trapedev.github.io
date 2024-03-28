@@ -5,7 +5,6 @@ import ListItemText from "@mui/material/ListItemText";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import SchoolIcon from "@mui/icons-material/School";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
-import PsychologyIcon from "@mui/icons-material/Psychology";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import DoneIcon from "@mui/icons-material/Done";
 // import EditNoteIcon from "@mui/icons-material/EditNote";
@@ -43,18 +42,6 @@ const ListItems = () => {
         </ListItemIcon>
         <ListItemText primary={"Accomplishments"} sx={{ color: "white" }} />
       </ListItemButton>
-      <ListItemButton href="/#/skills">
-        <ListItemIcon>
-          <PsychologyIcon sx={{ color: "white" }} />
-        </ListItemIcon>
-        <ListItemText primary={"Skills"} sx={{ color: "white" }} />
-      </ListItemButton>
-      {/* <ListItemButton href="/#/blog">
-        <ListItemIcon>
-          <EditNoteIcon sx={{ color: "white" }} />
-        </ListItemIcon>
-        <ListItemText primary={"Blog"} sx={{ color: "white" }} />
-      </ListItemButton> */}
     </>
   );
 };

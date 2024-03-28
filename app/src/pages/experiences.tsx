@@ -74,13 +74,6 @@ const Experiences = () => {
               ]}
             />
           </SingleCardItem>
-          {/* <SingleCardItem>
-            <Title
-              title={"Hewlett Packard Enterprise"}
-              hyperLink="https://www.hpe.com/us/en/home.html"
-            />
-            <SubTitle title={"07/2023 (Internship) ... PLAN TO JOIN !"} />
-          </SingleCardItem> */}
           <SingleCardItem>
             <Title
               title={"ONE CAREER Inc."}
