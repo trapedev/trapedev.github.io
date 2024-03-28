@@ -69,8 +69,8 @@ const Experiences = () => {
             <SubTitle title={"08/01/2023 - 08/16/2023 (Internship)"} />
             <BulletPointsList
               items={[
-                "Implemented a receipt parser for a mail order service that is actually in operation in Golang.",
-                "Created the k8s manifest using Kustomize, and deployed and released the implemented service to the production environment.",
+                "Implemented a receipt parser for mail order services that are actually in operation in Golang.",
+                "Created k8s manifests using Kustomize, and deployed and released the services to the production environment.",
               ]}
             />
           </SingleCardItem>
@@ -82,8 +82,8 @@ const Experiences = () => {
             <SubTitle title={"07/22/2023 - 07/23/2023 (Internship)"} />
             <BulletPointsList
               items={[
-                "Analyzed the Nginx access logs using the alp command.",
-                "Performed web performance tuning (solving the N+1 problem, optimizing SQL, reducing the number of system calls) and managed to improve processing speed by approximately 20 times.",
+                "Analyzed the Nginx access logs using alp command.",
+                "Performed web performance tuning (solving the N+1 problem, optimizing SQL, and reducing the number of system calls) and managed to improve processing speed by approximately 20 times.",
               ]}
             />
           </SingleCardItem>
