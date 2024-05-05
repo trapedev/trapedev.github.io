@@ -10,7 +10,7 @@ import {
 
 const Accomplishments = () => {
   return (
-    <Template name={"Accomplishments"}>
+    <Template name={"業績 | Accomplishments"}>
       <BaseContainer>
         <BaseItem xs={12}>
           <ISEC2023 />
@@ -29,7 +29,7 @@ const TOEIC = () => {
     <SingleCardItem>
       <Title title={"TOEIC L&R Score:825"} />
       <SubTitle title={"02/2022"} />
-      <SecondaryText data={"Listening : 420, Reading : 405"} />
+      <SecondaryText text={"Listening : 420, Reading : 405"} />
     </SingleCardItem>
   );
 };
@@ -42,7 +42,7 @@ const ISEC2023 = () => {
         hyperLink="https://www.ieice.org/~isec/award-encouragement.html"
       />
       <SubTitle title={"12/2023"} />
-      <SecondaryText data={"SCIS 2024@Nagasaki にて表彰"} />
+      <SecondaryText text={"SCIS 2024@Nagasaki にて表彰"} />
     </SingleCardItem>
   );
 };

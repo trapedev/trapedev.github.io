@@ -28,13 +28,13 @@ const ListItems = () => {
         <ListItemIcon>
           <DoneIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Experiences"} sx={{ color: "white" }} />
+        <ListItemText primary={"Experience"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/academic-paper">
         <ListItemIcon>
           <MenuBookIcon sx={{ color: "white" }} />
         </ListItemIcon>
-        <ListItemText primary={"Academic Paper"} sx={{ color: "white" }} />
+        <ListItemText primary={"Academic Papers"} sx={{ color: "white" }} />
       </ListItemButton>
       <ListItemButton href="/#/accomplishments">
         <ListItemIcon>

@@ -10,7 +10,7 @@ import {
 
 const AcademicPaper = () => {
   return (
-    <Template name={"Academic Paper"}>
+    <Template name={"主著論文 | Academic Papers"}>
       <BaseContainer>
         <BaseItem xs={12}>
           <CANDAR2023 />
@@ -39,7 +39,7 @@ const CSS2022 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      <SecondaryText data="pp.393-399, 2022-10-27" />
+      <SecondaryText text="pp.393-399, 2022-10-27" />
     </SingleCardItem>
   );
 };
@@ -57,7 +57,7 @@ const FIT2022 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      <SecondaryText data="pp.33-40, 2022-08-30" />
+      <SecondaryText text="pp.33-40, 2022-08-30" />
     </SingleCardItem>
   );
 };
@@ -77,7 +77,7 @@ const CSS2023 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
-      <SecondaryText data="pp.1136-1142, 2023-10-23" />
+      <SecondaryText text="pp.1136-1142, 2023-10-23" />
     </SingleCardItem>
   );
 };
@@ -97,7 +97,7 @@ const ISEC2023 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
-      <SecondaryText data="pp.103-109, 2023-11-02" />
+      <SecondaryText text="pp.103-109, 2023-11-02" />
     </SingleCardItem>
   );
 };
@@ -119,8 +119,8 @@ const CANDAR2023 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      <SecondaryText data="Peer-reviewed international conference" />
-      <SecondaryText data="pp.11-19, 2023-11-28" />
+      <SecondaryText text="Peer-reviewed international conference" />
+      <SecondaryText text="pp.11-19, 2023-11-28" />
     </SingleCardItem>
   );
 };

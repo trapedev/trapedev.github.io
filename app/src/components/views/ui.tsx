@@ -184,18 +184,25 @@ export const HyperLink = (props: HyperLinkProps) => {
 };
 
 interface SecondaryTextProps {
-  data: ReactNode;
+  text: ReactNode;
+  hyperLink?: string;
 }
 
 export const SecondaryText = (props: SecondaryTextProps) => {
-  const { data } = props;
+  const { text, hyperLink } = props;
   return (
     <Typography
       variant="body2"
       color="text.secondary"
       sx={{ color: "lightgray" }}
     >
-      {data}
+      {hyperLink !== undefined ? (
+        <a href={hyperLink} target="_blank" rel="noopener noreferrer">
+          {text}
+        </a>
+      ) : (
+        <>{text}</>
+      )}
     </Typography>
   );
 };
@@ -225,7 +232,7 @@ export const BulletPointsList = (props: BulletPointsListProps) => {
     <ul className="list">
       {items.map((item, i) => (
         <li>
-          <SecondaryText key={i} data={item} />
+          <SecondaryText key={i} text={item} />
         </li>
       ))}
     </ul>

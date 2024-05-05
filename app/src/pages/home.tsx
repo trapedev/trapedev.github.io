@@ -46,10 +46,10 @@ const Home = () => {
                 component="div"
                 sx={{ color: "lightgray" }}
               >
-                Hi, there! My name is Keiichiro KIMURA, a first-year master's
-                student in the Graduate School of Engineering at Kobe
-                University. My research theme is the study of vulnerabilities in
-                wireless communication, such as HTTPS and Bluetooth.
+                Hi, there! My name is Keiichiro KIMURA, a second-year master's
+                student in the Graduate School of Engineering, Kobe University.
+                My research theme is the study of vulnerabilities in wireless
+                communication, such as HTTPS and Bluetooth.
               </Typography>
             </Grid>
             <Grid

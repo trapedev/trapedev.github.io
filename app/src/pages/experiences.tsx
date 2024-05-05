@@ -1,3 +1,4 @@
+import { Divider } from "@mui/material";
 import Template from "components/views/template";
 import {
   BaseContainer,
@@ -5,6 +6,7 @@ import {
   BulletPointsList,
   DoubleTitle,
   HyperLink,
+  SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
@@ -12,10 +14,32 @@ import {
 
 const Experiences = () => {
   return (
-    <Template name={"Experiences"}>
+    <Template name={"職歴 | Experience"}>
       <BaseContainer>
         <BaseItem xs={12}>
           <SingleCardItem>
+            <Title
+              title={"クランテーブル株式会社"}
+              hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
+            />
+            <SubTitle title={"2021年8月 - 現在 (インターンシップ)"} />
+            <BulletPointsList
+              items={[
+                <>
+                  塾の業務管理をサポートするクラウドサービス
+                  <HyperLink
+                    url="https://www.juksl.com/"
+                    data={"`ジュクスル`"}
+                  />
+                  の開発及び運用．
+                </>,
+                "フロントエンド（Next.js/TypeScript）とバックエンド（Golang）の開発を担当．",
+                "サービスの拡張に伴い，モノリスからマイクロサービスへ移行．",
+                "ビジネスロジックのアルゴリズムを改善し，処理速度を約17%向上．",
+                "運用効率化のため，一部のコードを自動生成・更新する機能を実装．",
+              ]}
+            />
+            <Divider sx={{ mt: 2, mb: 2 }} />
             <Title
               title={"Clantable Co."}
               hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
@@ -40,6 +64,24 @@ const Experiences = () => {
           </SingleCardItem>
           <SingleCardItem>
             <Title
+              title={"株式会社 野村総合研究所 (NRI)"}
+              hyperLink="https://www.nri.com/jp"
+            />
+            <SubTitle
+              title={"2024年1月15日 - 2024年1月19日 (インターンシップ)"}
+            />
+            <SecondaryText
+              text={
+                "配属：マルチクラウドインテグレーション事業本部・金融基盤サービス部・金融プロジェクトチーム"
+              }
+            />
+            <BulletPointsList
+              items={[
+                "実運用されている決済サービスのアクセスログ解析ツールを構築",
+                "環境はAWSで構築．",
+              ]}
+            />
+            <Title
               title={"Nomura Researh Institute (NRI)"}
               hyperLink="https://www.nri.com/en"
             />
@@ -47,11 +89,30 @@ const Experiences = () => {
             <BulletPointsList
               items={[
                 "Built an access log analysis tool for a payment service in actual operation.",
-                "The construction environment was built on AWS, allowing the participants to experience the actual business use of public cloud computing.",
+                "The construction environment was built on AWS.",
               ]}
             />
           </SingleCardItem>
           <SingleCardItem>
+            <Title
+              title={"ソニー株式会社"}
+              hyperLink="https://www.sony.com/ja/"
+            />
+            <SubTitle
+              title={"2023年8月28日 - 2023年9月8日 (インターンシップ)"}
+            />
+            <SecondaryText
+              text={
+                "配属：品質CSセンター セキュリティリスクマネジメント部 グループ製品セキュリティ課"
+              }
+            />
+            <BulletPointsList
+              items={[
+                "ソニーのSDL（セキュリティ開発ライフサイクル），特に再発防止活動，リスクアセスメント，実践を通じたセキュリティテストについて学習．",
+                "C言語でBluetooth BR/EDRのファジングツールを実装．libbluetooth-devライブラリを使用し，L2CAPを含む5つのプロトコルに対するファジングを実現．",
+              ]}
+            />
+            <Divider sx={{ mt: 2, mb: 2 }} />
             <Title title={"Sony"} hyperLink="https://www.sony.com/en/" />
             <SubTitle title={"08/28/2023 - 09/08/2023 (Internship)"} />
             <BulletPointsList
@@ -62,6 +123,25 @@ const Experiences = () => {
             />
           </SingleCardItem>
           <SingleCardItem>
+            <Title
+              title={"株式会社マネーフォワード"}
+              hyperLink="https://corp.moneyforward.com/"
+            />
+            <SubTitle
+              title={"2023年8月1日 - 2023年8月16日 (インターンシップ)"}
+            />
+            <SecondaryText
+              text={
+                "配属：CTO室 基盤アプリケーション部 マイクロサービスグループ"
+              }
+            />
+            <BulletPointsList
+              items={[
+                "実運用されているメールオーダーサービスの領収書パーサーをGolangで実装．",
+                "Kustomizeを使ってk8sマニフェストを作成し，サービスを本番環境にデプロイ＆リリース．",
+              ]}
+            />
+            <Divider sx={{ mt: 2, mb: 2 }} />
             <Title
               title={"Money Forward Inc."}
               hyperLink="https://corp.moneyforward.com/en/"
@@ -76,6 +156,20 @@ const Experiences = () => {
           </SingleCardItem>
           <SingleCardItem>
             <Title
+              title={"株式会社ワンキャリア"}
+              hyperLink="https://onecareer.co.jp/"
+            />
+            <SubTitle
+              title={"2023年7月22日 - 2023年7月23日 (インターンシップ)"}
+            />
+            <BulletPointsList
+              items={[
+                "alpコマンドを使ってNginxのアクセスログを解析",
+                "Webのパフォーマンスチューニング（N+1問題の解決，SQLの最適化，システムコールの削減）を行い，処理速度を約20倍に改善．",
+              ]}
+            />
+            <Divider sx={{ mt: 2, mb: 2 }} />
+            <Title
               title={"ONE CAREER Inc."}
               hyperLink="https://onecareer.co.jp/"
             />
@@ -88,6 +182,20 @@ const Experiences = () => {
             />
           </SingleCardItem>
           <SingleCardItem>
+            <Title
+              title={"キヤノン IT ソリューションズ"}
+              hyperLink="https://www.canon-its.co.jp/"
+            />
+            <SubTitle
+              title={"2022月8月29日 - 2022年9月2日 (インターンシップ)"}
+            />
+            <BulletPointsList
+              items={[
+                "実際に観測されたマルウェアおよびランサムウェアを解析．",
+                "インターン生内のCTFで優勝．",
+              ]}
+            />
+            <Divider sx={{ mt: 2, mb: 2 }} />
             <Title
               title={"Canon IT Solutions Inc."}
               hyperLink="https://www.canon-its.co.jp/"
@@ -102,6 +210,19 @@ const Experiences = () => {
           </SingleCardItem>
           <SingleCardItem>
             <DoubleTitle
+              title1={"神戸大学大学院工学研究科"}
+              hyperLink1="http://www.eng.kobe-u.ac.jp/"
+              title2={"大阪商工会議所"}
+              hyperLink2="https://www.osaka.cci.or.jp/"
+            />
+            <SubTitle title={"2020年11月 - 2021年5月 (学生技術補佐)"} />
+            <BulletPointsList
+              items={[
+                "大阪商工会議所主催の「サイバーセキュリティお助け隊サービス」の一環として，PHPで学習システムを開発．",
+              ]}
+            />
+            <Divider sx={{ mt: 2, mb: 2 }} />
+            <DoubleTitle
               title1={"Kobe University"}
               hyperLink1="http://www.eng.kobe-u.ac.jp/en/"
               title2={"Osaka Chamber of Commerce and Industry"}
@@ -115,6 +236,27 @@ const Experiences = () => {
             />
           </SingleCardItem>
           <SingleCardItem>
+            <DoubleTitle
+              title1={"神戸大学大学院工学研究科"}
+              hyperLink1="http://www.eng.kobe-u.ac.jp/"
+              title2={"徳島県警"}
+              hyperLink2="https://www.police.pref.tokushima.jp/"
+            />
+            <SubTitle title={"2020年7月 - 2021年3月 (学生技術補佐)"} />
+            <BulletPointsList
+              items={[
+                <>
+                  JavaScriptで{" "}
+                  <HyperLink
+                    url="https://www.tcn.jp/news/detail/5/"
+                    data={"`すごセク`"}
+                  />{" "}
+                  と命名されたゲーム形式のサイバーセキュリティ教育アプリケーションを開発．
+                </>,
+                "R言語を用いて，収集したデータからサイバーセキュリティの意識データを分析．",
+              ]}
+            />
+            <Divider sx={{ mt: 2, mb: 2 }} />
             <DoubleTitle
               title1={"Kobe University"}
               hyperLink1="http://www.eng.kobe-u.ac.jp/en/"
