@@ -81,6 +81,7 @@ const Experiences = () => {
                 "環境はAWSで構築．",
               ]}
             />
+            <Divider sx={{ mt: 2, mb: 2 }} />
             <Title
               title={"Nomura Researh Institute (NRI)"}
               hyperLink="https://www.nri.com/en"
