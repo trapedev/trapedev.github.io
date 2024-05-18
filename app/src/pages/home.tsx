@@ -377,9 +377,9 @@ const Home = () => {
       </BaseContainer>
 
       {/* 業績 */}
-      <BaseContainer id="accomplishments">
+      <BaseContainer id="achievement">
         <BaseItem xs={12}>
-          <Title title="業績 | Accomplishments" />
+          <Title title="業績 | Achievement" />
           <SCISISEC2023 />
           <CTF2023 />
           <TOEIC />

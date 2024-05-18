@@ -131,7 +131,7 @@ export default function Template(props: TemplateProps) {
                     }}
                     onClick={() => scrollTo("whoami")}
                   >
-                    Profile
+                    PF
                   </Button>
                   <Button
                     variant="text"
@@ -145,7 +145,7 @@ export default function Template(props: TemplateProps) {
                     }}
                     onClick={() => scrollTo("education")}
                   >
-                    Education
+                    EDU
                   </Button>
                   <Button
                     variant="text"
@@ -159,7 +159,7 @@ export default function Template(props: TemplateProps) {
                     }}
                     onClick={() => scrollTo("experience")}
                   >
-                    Experience
+                    EXP
                   </Button>
                   <Button
                     variant="text"
@@ -173,7 +173,7 @@ export default function Template(props: TemplateProps) {
                     }}
                     onClick={() => scrollTo("papers")}
                   >
-                    Papers
+                    PAPER
                   </Button>
                   <Button
                     variant="text"
@@ -185,9 +185,9 @@ export default function Template(props: TemplateProps) {
                         backgroundColor: "transparent",
                       },
                     }}
-                    onClick={() => scrollTo("accomplishments")}
+                    onClick={() => scrollTo("achievement")}
                   >
-                    Accomplishments
+                    AHCV
                   </Button>
                 </Box>
               </Grid>
