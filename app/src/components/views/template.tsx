@@ -4,14 +4,10 @@ import React, { useEffect, useState } from "react";
 // ** MUI Import
 import { styled, createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import MuiDrawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
 import MuiAppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import List from "@mui/material/List";
 import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
-import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
 import TableContainer from "@mui/material/TableContainer";
 import TableBody from "@mui/material/TableBody";
@@ -19,16 +15,13 @@ import TablePagination from "@mui/material/TablePagination";
 import Table from "@mui/material/Table";
 import TableCell from "@mui/material/TableCell";
 import TableRow from "@mui/material/TableRow";
-import MenuIcon from "@mui/icons-material/Menu";
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
 // ** UI Import
 import { EnhancedTableHead, EnhancedTableHeadType, HyperLink } from "./ui";
 import { WINDOW_INNER_HEIGHT } from "models/constants";
 
 // ** Views Import
-import ListItems from "pages/list/listItems";
-import { Container } from "@mui/material";
+import { Button, Container, Grid } from "@mui/material";
 import { GitHub, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
 
 import "./template.css";
@@ -52,32 +45,6 @@ const AppBar = styled(MuiAppBar, {
       duration: theme.transitions.duration.enteringScreen,
     }),
   }),
-}));
-
-const Drawer = styled(MuiDrawer, {
-  shouldForwardProp: (prop) => prop !== "open",
-})(({ theme, open }) => ({
-  "& .MuiDrawer-paper": {
-    position: "relative",
-    whiteSpace: "nowrap",
-    width: drawerWidth,
-    transition: theme.transitions.create("width", {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-    boxSizing: "border-box",
-    ...(!open && {
-      overflowX: "hidden",
-      transition: theme.transitions.create("width", {
-        easing: theme.transitions.easing.sharp,
-        duration: theme.transitions.duration.leavingScreen,
-      }),
-      width: theme.spacing(7),
-      [theme.breakpoints.up("sm")]: {
-        width: theme.spacing(9),
-      },
-    }),
-  },
 }));
 
 const mdTheme = createTheme({
@@ -111,11 +78,14 @@ interface TemplateProps {
 
 export default function Template(props: TemplateProps) {
   const { name, children } = props;
-  const [open, setOpen] = useState(true);
-  const toggleDrawer = () => {
-    setOpen(!open);
-  };
   useEffect(() => {}, [props]);
+
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <ThemeProvider theme={mdTheme}>
@@ -123,71 +93,107 @@ export default function Template(props: TemplateProps) {
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
         {/* @ts-ignore */}
-        <AppBar position="absolute" open={open} color={"secondary"}>
+        <AppBar position="absolute" open={false} color={"secondary"}>
           <Toolbar
             sx={{
               pr: "24px", // keep right padding when drawer closed
             }}
           >
-            <IconButton
-              edge="start"
-              color="inherit"
-              aria-label="open drawer"
-              onClick={toggleDrawer}
-              sx={{
-                marginRight: "36px",
-                ...(open && { display: "none" }),
-              }}
-            >
-              <MenuIcon />
-            </IconButton>
-            <Typography
-              component="h1"
-              variant="h5"
-              color="inherit"
-              noWrap
-              sx={{ flexGrow: 1 }}
-            >
-              {name}
-            </Typography>
-            <Box
-              component="img"
-              sx={{
-                height: 65,
-                width: 65,
-              }}
-              alt="Trape"
-              src="logo.png"
-            />
+            <Grid container alignItems="center">
+              <Grid item xs={12} sm={6}>
+                <Typography
+                  component="h1"
+                  variant="h5"
+                  color="inherit"
+                  noWrap
+                  sx={{ flexGrow: 1, ml: 2 }}
+                >
+                  {name}
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={6} sx={{ textAlign: "right" }}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <Button
+                    variant="text"
+                    sx={{
+                      m: 1,
+                      color: "white",
+                      textTransform: "none",
+                      "&:hover": {
+                        backgroundColor: "transparent",
+                      },
+                    }}
+                    onClick={() => scrollTo("whoami")}
+                  >
+                    Profile
+                  </Button>
+                  <Button
+                    variant="text"
+                    sx={{
+                      m: 1,
+                      color: "white",
+                      textTransform: "none",
+                      "&:hover": {
+                        backgroundColor: "transparent",
+                      },
+                    }}
+                    onClick={() => scrollTo("education")}
+                  >
+                    Education
+                  </Button>
+                  <Button
+                    variant="text"
+                    sx={{
+                      m: 1,
+                      color: "white",
+                      textTransform: "none",
+                      "&:hover": {
+                        backgroundColor: "transparent",
+                      },
+                    }}
+                    onClick={() => scrollTo("experience")}
+                  >
+                    Experience
+                  </Button>
+                  <Button
+                    variant="text"
+                    sx={{
+                      m: 1,
+                      color: "white",
+                      textTransform: "none",
+                      "&:hover": {
+                        backgroundColor: "transparent",
+                      },
+                    }}
+                    onClick={() => scrollTo("papers")}
+                  >
+                    Papers
+                  </Button>
+                  <Button
+                    variant="text"
+                    sx={{
+                      m: 1,
+                      color: "white",
+                      textTransform: "none",
+                      "&:hover": {
+                        backgroundColor: "transparent",
+                      },
+                    }}
+                    onClick={() => scrollTo("accomplishments")}
+                  >
+                    Accomplishments
+                  </Button>
+                </Box>
+              </Grid>
+            </Grid>
           </Toolbar>
         </AppBar>
-        <Drawer
-          variant="permanent"
-          open={open}
-          sx={{
-            "& .MuiDrawer-paper": {
-              backgroundColor: "#23252f",
-            },
-          }}
-        >
-          <Toolbar
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "flex-end",
-              px: [1],
-              backgroundColor: "slategray",
-            }}
-          >
-            <IconButton onClick={toggleDrawer}>
-              <ChevronLeftIcon />
-            </IconButton>
-          </Toolbar>
-          <Divider />
-          <List component="nav">
-            <ListItems />
-          </List>
-        </Drawer>
         <Box
           component="main"
           sx={{
@@ -217,7 +223,7 @@ export default function Template(props: TemplateProps) {
               url={"https://twitter.com/trape_dev"}
               data={<Twitter sx={{ ml: 1, mr: 1, color: "white" }} />}
             />
-            <HyperLink 
+            <HyperLink
               url="https://www.linkedin.com/in/keiichiro-kimura-aaab62291"
               data={<LinkedIn sx={{ ml: 1, mr: 1, color: "white" }} />}
             />

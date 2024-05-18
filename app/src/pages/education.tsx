@@ -1,28 +1,7 @@
 import { Typography, Divider } from "@mui/material";
-import Template from "components/views/template";
-import {
-  BaseContainer,
-  BaseItem,
-  SecondaryText,
-  SingleCardItem,
-} from "components/views/ui";
+import { SecondaryText, SingleCardItem } from "components/views/ui";
 
-const Education = () => {
-  return (
-    <Template name={"学歴 | Education"}>
-      <BaseContainer>
-        <BaseItem xs={12}>
-          <First />
-          <Second />
-        </BaseItem>
-      </BaseContainer>
-    </Template>
-  );
-};
-
-export default Education;
-
-const First = () => {
+export const Master = () => {
   return (
     <SingleCardItem>
       <Typography
@@ -64,7 +43,7 @@ const First = () => {
   );
 };
 
-const Second = () => {
+export const Bachelor = () => {
   return (
     <SingleCardItem>
       <Typography

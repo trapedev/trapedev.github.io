@@ -1,32 +1,11 @@
-import Template from "components/views/template";
 import {
-  BaseContainer,
-  BaseItem,
   SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
 } from "components/views/ui";
 
-const AcademicPaper = () => {
-  return (
-    <Template name={"主著論文 | Academic Papers"}>
-      <BaseContainer>
-        <BaseItem xs={12}>
-          <CANDAR2023 />
-          <ISEC2023 />
-          <CSS2023 />
-          <CSS2022 />
-          <FIT2022 />
-        </BaseItem>
-      </BaseContainer>
-    </Template>
-  );
-};
-
-export default AcademicPaper;
-
-const CSS2022 = () => {
+export const CSS2022 = () => {
   return (
     <SingleCardItem>
       <Title
@@ -44,7 +23,7 @@ const CSS2022 = () => {
   );
 };
 
-const FIT2022 = () => {
+export const FIT2022 = () => {
   return (
     <SingleCardItem>
       <Title
@@ -62,7 +41,7 @@ const FIT2022 = () => {
   );
 };
 
-const CSS2023 = () => {
+export const CSS2023 = () => {
   return (
     <SingleCardItem>
       <Title
@@ -82,7 +61,7 @@ const CSS2023 = () => {
   );
 };
 
-const ISEC2023 = () => {
+export const ISEC2023 = () => {
   return (
     <SingleCardItem>
       <Title
@@ -102,7 +81,7 @@ const ISEC2023 = () => {
   );
 };
 
-const CANDAR2023 = () => {
+export const CANDAR2023 = () => {
   return (
     <SingleCardItem>
       <Title

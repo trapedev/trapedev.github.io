@@ -1,30 +1,11 @@
-import Template from "components/views/template";
 import {
-  BaseContainer,
-  BaseItem,
   SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
 } from "components/views/ui";
 
-const Accomplishments = () => {
-  return (
-    <Template name={"業績 | Accomplishments"}>
-      <BaseContainer>
-        <BaseItem xs={12}>
-          <ISEC2023 />
-          <CTF2023 />
-          <TOEIC />
-        </BaseItem>
-      </BaseContainer>
-    </Template>
-  );
-};
-
-export default Accomplishments;
-
-const TOEIC = () => {
+export const TOEIC = () => {
   return (
     <SingleCardItem>
       <Title title={"TOEIC L&R Score:825"} />
@@ -34,7 +15,7 @@ const TOEIC = () => {
   );
 };
 
-const ISEC2023 = () => {
+export const SCISISEC2023 = () => {
   return (
     <SingleCardItem>
       <Title
@@ -47,7 +28,7 @@ const ISEC2023 = () => {
   );
 };
 
-const CTF2023 = () => {
+export const CTF2023 = () => {
   return (
     <SingleCardItem>
       <Title

@@ -128,13 +128,14 @@ export const SubTitle = (props: SubTitleProps) => {
 
 interface BaseContainerProps {
   children: ReactNode;
+  id: string;
 }
 
 export const BaseContainer = (props: BaseContainerProps) => {
-  const { children } = props;
+  const { children, id } = props;
   return (
     <>
-      <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
+      <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }} id={id}>
         <Grid container spacing={3}>
           {children}
         </Grid>
