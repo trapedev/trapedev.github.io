@@ -16,6 +16,7 @@ import { Divider, Grid, styled } from "@mui/material";
 import { Bachelor, Master } from "./education";
 import {
   CANDAR2023,
+  CSEC2024,
   CSS2022,
   CSS2023,
   FIT2022,
@@ -368,6 +369,7 @@ const Home = () => {
       <BaseContainer id="papers">
         <BaseItem xs={12}>
           <Title title="論文 | Papers" />
+          <CSEC2024 />
           <CANDAR2023 />
           <ISEC2023 />
           <CSS2023 />

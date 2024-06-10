@@ -103,3 +103,25 @@ export const CANDAR2023 = () => {
     </SingleCardItem>
   );
 };
+
+export const CSEC2024 = () => {
+  return (
+    <SingleCardItem>
+      <Title
+        title={
+          "Device Hijack Attacks Abusing Bluetooth Power-Saving Mode"
+        }
+        hyperLink="https://www.ipsj.or.jp/kenkyukai/event/csec106spt56.html"
+      />
+      <Title
+        title={
+          "106th, CSEC: Computer Security Group"
+        }
+      />
+      <SubTitle
+        title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
+      />
+      <SecondaryText text="To be appear" />
+    </SingleCardItem>
+  );
+};
