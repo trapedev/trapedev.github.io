@@ -68,8 +68,8 @@ const Home = () => {
               >
                 Hi, there! My name is Keiichiro KIMURA, a second-year master's
                 student in the Graduate School of Engineering, Kobe University.
-                My research theme is the study of vulnerabilities in wireless
-                communication, such as HTTPS and Bluetooth.
+                My research focuses on vulnerabilities in wireless technologies,
+                such as HTTPS and Bluetooth.
               </Typography>
             </Grid>
             <Grid
