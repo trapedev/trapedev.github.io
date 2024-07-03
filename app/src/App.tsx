@@ -1,25 +1,40 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import CssBaseline from '@mui/material/CssBaseline';
-import Divider from '@mui/material/Divider';
-import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import MenuIcon from '@mui/icons-material/Menu';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import { HOME_TITLE } from './models/constants';
-import { Bachelor, Master } from 'pages/education';
-import { BulletPointsList, DoubleTitle, HyperLink, SecondaryText, SingleCardItem, SubTitle, Title } from 'components/views/ui';
-import { CTF2023, SCISISEC2023, TOEIC } from 'pages/accomplishments';
-import { CANDAR2023, CSEC2024, CSS2022, CSS2023, FIT2022, ISEC2023 } from 'pages/academicPaper';
-import { Container } from '@mui/material';
-import { GitHub, Instagram, LinkedIn, Twitter } from '@mui/icons-material';
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import CssBaseline from "@mui/material/CssBaseline";
+import Divider from "@mui/material/Divider";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import MenuIcon from "@mui/icons-material/Menu";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import { HOME_TITLE } from "./models/constants";
+import { Bachelor, Master } from "pages/education";
+import {
+  BulletPointsList,
+  DoubleTitle,
+  HyperLink,
+  SecondaryText,
+  SingleCardItem,
+  SubTitle,
+  Title,
+} from "components/views/ui";
+import { CTF2023, SCISISEC2023, TOEIC } from "pages/accomplishments";
+import {
+  CANDAR2023,
+  CSEC2024,
+  CSS2022,
+  CSS2023,
+  FIT2022,
+  ISEC2023,
+} from "pages/academicPaper";
+import { Container } from "@mui/material";
+import { GitHub, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
 
 interface Props {
   /**
@@ -30,7 +45,13 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ['Home', 'Education', 'Experience', 'Publication', 'Achievement'];
+const navItems = [
+  "Home",
+  "Education",
+  "Experience",
+  "Publication",
+  "Achievement",
+];
 
 export default function App(props: Props) {
   const { window } = props;
@@ -43,13 +64,13 @@ export default function App(props: Props) {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      section.scrollIntoView({ behavior: "smooth" });
     }
     setMobileOpen(false);
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
         {HOME_TITLE}
       </Typography>
@@ -57,7 +78,10 @@ export default function App(props: Props) {
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }} onClick={() => scrollToSection(item.toLowerCase())}>
+            <ListItemButton
+              sx={{ textAlign: "center" }}
+              onClick={() => scrollToSection(item.toLowerCase())}
+            >
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -66,32 +90,37 @@ export default function App(props: Props) {
     </Box>
   );
 
-  const container = window !== undefined ? () => window().document.body : undefined;
+  const container =
+    window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex', backgroundColor: '#272d33', color: 'white' }}>
+    <Box sx={{ display: "flex", backgroundColor: "#272d33", color: "white" }}>
       <CssBaseline />
-      <AppBar component="nav" sx={{ backgroundColor: '#1A1A1A' }}>
+      <AppBar component="nav" sx={{ backgroundColor: "#1A1A1A" }}>
         <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
+            sx={{ mr: 2, display: { sm: "none" } }}
           >
             <MenuIcon />
           </IconButton>
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
             {HOME_TITLE}
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }} onClick={() => scrollToSection(item.toLowerCase())}>
+              <Button
+                key={item}
+                sx={{ color: "#fff" }}
+                onClick={() => scrollToSection(item.toLowerCase())}
+              >
                 {item}
               </Button>
             ))}
@@ -108,22 +137,25 @@ export default function App(props: Props) {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
-            display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            display: { xs: "block", sm: "none" },
+            "& .MuiDrawer-paper": {
+              boxSizing: "border-box",
+              width: drawerWidth,
+            },
           }}
         >
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3}}>
+      <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
         <Box id="home" sx={{ mb: 10 }}>
           <Typography variant="h4">Hi, there!</Typography>
           <Typography variant="h6">
-            My name is Keiichiro KIMURA, a second-year master's
-            student in the Graduate School of Engineering, Kobe University.
-            My research theme is the study of vulnerabilities in wireless
-            communication, such as HTTPS and Bluetooth.
+            My name is Keiichiro KIMURA, a second-year master's student in the
+            Graduate School of Engineering, Kobe University. My research focuses
+            on vulnerabilities in wireless technologies, such as HTTPS and
+            Bluetooth.
           </Typography>
         </Box>
         <Box id="education" sx={{ mb: 10 }}>
@@ -413,26 +445,26 @@ export default function App(props: Props) {
           <TOEIC />
         </Box>
         <Container
-            maxWidth="lg"
-            sx={{ display: "flex", justifyContent: "center" }}
-          >
-            <HyperLink
-              url={"https://github.com/trapedev"}
-              data={<GitHub sx={{ ml: 1, mr: 1, color: "white" }} />}
-            />
-            <HyperLink
-              url={"https://www.instagram.com/trape.dev/"}
-              data={<Instagram sx={{ ml: 1, mr: 1, color: "white" }} />}
-            />
-            <HyperLink
-              url={"https://twitter.com/trape_dev"}
-              data={<Twitter sx={{ ml: 1, mr: 1, color: "white" }} />}
-            />
-            <HyperLink
-              url="https://www.linkedin.com/in/keiichiro-kimura-aaab62291"
-              data={<LinkedIn sx={{ ml: 1, mr: 1, color: "white" }} />}
-            />
-          </Container>
+          maxWidth="lg"
+          sx={{ display: "flex", justifyContent: "center" }}
+        >
+          <HyperLink
+            url={"https://github.com/trapedev"}
+            data={<GitHub sx={{ ml: 1, mr: 1, color: "white" }} />}
+          />
+          <HyperLink
+            url={"https://www.instagram.com/trape.dev/"}
+            data={<Instagram sx={{ ml: 1, mr: 1, color: "white" }} />}
+          />
+          <HyperLink
+            url={"https://twitter.com/trape_dev"}
+            data={<Twitter sx={{ ml: 1, mr: 1, color: "white" }} />}
+          />
+          <HyperLink
+            url="https://www.linkedin.com/in/keiichiro-kimura-aaab62291"
+            data={<LinkedIn sx={{ ml: 1, mr: 1, color: "white" }} />}
+          />
+        </Container>
       </Box>
     </Box>
   );
