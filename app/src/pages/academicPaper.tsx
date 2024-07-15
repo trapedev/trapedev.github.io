@@ -108,18 +108,14 @@ export const CSEC2024 = () => {
   return (
     <SingleCardItem>
       <Title
-        title={
-          "Device Hijack Attacks Abusing Bluetooth Power-Saving Mode"
-        }
-        hyperLink="https://www.ipsj.or.jp/kenkyukai/event/csec106spt56.html"
+        title={"Device Hijack Attacks Abusing Bluetooth Power-Saving Mode"}
+        hyperLink="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=237288&item_no=1&page_id=13&block_id=8"
       />
-      <Title
-        title={
-          "106th, CSEC: Computer Security Group"
-        }
-      />
+      <Title title={"106th, CSEC: Computer Security Group (2024)"} />
       <SubTitle
-        title={"Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"}
+        title={
+          "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
+        }
       />
       <SecondaryText text="To be appear" />
     </SingleCardItem>
