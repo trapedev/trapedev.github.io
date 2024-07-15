@@ -117,7 +117,7 @@ export const CSEC2024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
-      <SecondaryText text="To be appear" />
+      <SecondaryText text="Vol.2024-CSEC-106 No.82, 2023-07-15" />
     </SingleCardItem>
   );
 };
