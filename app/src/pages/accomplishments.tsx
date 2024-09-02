@@ -15,7 +15,7 @@ export const TOEIC = () => {
   );
 };
 
-export const CSEC2024 = () => {
+export const IPSJCSEC2024 = () => {
   return (
     <SingleCardItem>
       <Title

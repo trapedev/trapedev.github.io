@@ -24,7 +24,7 @@ import {
   SubTitle,
   Title,
 } from "components/views/ui";
-import { CTF2023, SCISISEC2023, TOEIC } from "pages/accomplishments";
+import { CTF2023, IPSJCSEC2024, SCISISEC2023, TOEIC } from "pages/accomplishments";
 import {
   CANDAR2023,
   CSEC2024,
@@ -440,7 +440,7 @@ export default function App(props: Props) {
         </Box>
         <Box id="achievement" sx={{ mb: 10 }}>
           <Typography variant="h4">Achievement</Typography>
-          <CSEC2024 />
+          <IPSJCSEC2024 />
           <SCISISEC2023 />
           <CTF2023 />
           <TOEIC />
