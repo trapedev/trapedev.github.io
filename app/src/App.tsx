@@ -440,6 +440,7 @@ export default function App(props: Props) {
         </Box>
         <Box id="achievement" sx={{ mb: 10 }}>
           <Typography variant="h4">Achievement</Typography>
+          <CSEC2024 />
           <SCISISEC2023 />
           <CTF2023 />
           <TOEIC />
