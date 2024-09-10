@@ -121,3 +121,22 @@ export const CSEC2024 = () => {
     </SingleCardItem>
   );
 };
+
+export const IPSJJIPVol322024 = () => {
+  return (
+    <SingleCardItem>
+      <Title
+        title={
+          "Man-in-the-Portal: Breaking SSL/TLS Silently Abusing Captive Portal"
+        }
+      />
+      <Title title={"Journal of Information Processing, Vol.32, (2024)"} />
+      <SubTitle
+        title={
+          "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
+        }
+      />
+      <SecondaryText text="To be appear." />
+    </SingleCardItem>
+  );
+};

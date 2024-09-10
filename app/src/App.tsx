@@ -24,13 +24,19 @@ import {
   SubTitle,
   Title,
 } from "components/views/ui";
-import { CTF2023, IPSJCSEC2024, SCISISEC2023, TOEIC } from "pages/accomplishments";
+import {
+  CTF2023,
+  IPSJCSEC2024,
+  SCISISEC2023,
+  TOEIC,
+} from "pages/accomplishments";
 import {
   CANDAR2023,
   CSEC2024,
   CSS2022,
   CSS2023,
   FIT2022,
+  IPSJJIPVol322024,
   ISEC2023,
 } from "pages/academicPaper";
 import { Container } from "@mui/material";
@@ -431,6 +437,7 @@ export default function App(props: Props) {
         </Box>
         <Box id="publication" sx={{ mb: 10 }}>
           <Typography variant="h4">Publication</Typography>
+          <IPSJJIPVol322024 />
           <CSEC2024 />
           <CANDAR2023 />
           <ISEC2023 />
