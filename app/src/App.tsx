@@ -35,6 +35,7 @@ import {
   CSEC2024,
   CSS2022,
   CSS2023,
+  EPRINT2024,
   FIT2022,
   IPSJJIPVol322024,
   ISEC2023,
@@ -439,11 +440,18 @@ export default function App(props: Props) {
           <Typography variant="h4">Publication</Typography>
           <IPSJJIPVol322024 />
           <CSEC2024 />
+          <EPRINT2024 />
           <CANDAR2023 />
           <ISEC2023 />
           <CSS2023 />
           <CSS2022 />
           <FIT2022 />
+        </Box>
+        <Box id="open-source-tool" sx={{ mb: 10 }}>
+          <Typography variant="h4">Open-Source Tool</Typography>
+          <SingleCardItem>
+            <Title title={"Breaktooth"} hyperLink="https://breaktooth.dev/" />
+          </SingleCardItem>
         </Box>
         <Box id="achievement" sx={{ mb: 10 }}>
           <Typography variant="h4">Achievement</Typography>

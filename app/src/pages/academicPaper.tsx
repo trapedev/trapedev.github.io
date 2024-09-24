@@ -104,6 +104,26 @@ export const CANDAR2023 = () => {
   );
 };
 
+export const EPRINT2024 = () => {
+  return (
+    <SingleCardItem>
+      <Title
+        title={
+          "Breaktooth: Breaking Bluetooth Sessions Abusing Power-Saving Mode"
+        }
+        hyperLink="https://eprint.iacr.org/2024/900"
+      />
+      <Title title={"Cryptology ePrint Archive"} />
+      <SubTitle
+        title={
+          "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
+        }
+      />
+      <SecondaryText text="2024-06-06" />
+    </SingleCardItem>
+  );
+};
+
 export const CSEC2024 = () => {
   return (
     <SingleCardItem>
@@ -117,7 +137,7 @@ export const CSEC2024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
-      <SecondaryText text="Vol.2024-CSEC-106 No.82, 2023-07-15" />
+      <SecondaryText text="Vol.2024-CSEC-106 No.82, 2024-07-15" />
     </SingleCardItem>
   );
 };
