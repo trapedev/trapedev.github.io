@@ -149,6 +149,7 @@ export const IPSJJIPVol322024 = () => {
         title={
           "Man-in-the-Portal: Breaking SSL/TLS Silently Abusing Captive Portal"
         }
+        hyperLink="https://www.ipsj.or.jp/english/jip/info/accept/sep.html"
       />
       <Title title={"Journal of Information Processing, Vol.32, (2024)"} />
       <SubTitle
