@@ -177,7 +177,7 @@ export default function App(props: Props) {
               title={"クランテーブル株式会社"}
               hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
             />
-            <SubTitle title={"2021年8月 - 現在 (インターンシップ)"} />
+            <SubTitle title={"2021年8月 - 現在 (業務委託)"} />
             <BulletPointsList
               items={[
                 <>
@@ -199,7 +199,7 @@ export default function App(props: Props) {
               title={"Clantable Co."}
               hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
             />
-            <SubTitle title={"08/2021 - Present (Internship)"} />
+            <SubTitle title={"08/2021 - Present (Outsourcing)"} />
             <BulletPointsList
               items={[
                 <>
