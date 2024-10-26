@@ -154,7 +154,7 @@ export default function App(props: Props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
+      <Container component="main" sx={{ mt: 8, mb: 4 }}>
         <Toolbar />
         <Box id="home" sx={{ mb: 10 }}>
           <Typography variant="h4">Hi, there!</Typography>
@@ -508,7 +508,7 @@ export default function App(props: Props) {
             data={<LinkedIn sx={{ ml: 1, mr: 1, color: "white" }} />}
           />
         </Container>
-      </Box>
+      </Container>
     </Box>
   );
 }
