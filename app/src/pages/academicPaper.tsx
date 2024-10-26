@@ -162,12 +162,12 @@ export const IPSJJIPVol322024 = () => {
       <SecondaryText text="Below is a demonstration of the Man-in-the-Portal (MITP) attack:" />
       <Box
         sx={{
-          maxWidth: "600px", // Set maximum width to 600px
-          width: "100%", // Allow container to be responsive up to 600px
-          height: "337.5px", // 600px * (9/16) = 337.5px to maintain 16:9
           position: "relative",
+          paddingBottom: "56.25%", // 16:9 aspect ratio
+          height: 0,
+          overflow: "hidden",
+          maxWidth: "100%",
           mb: 3,
-          mx: "auto", // Center the container horizontally
         }}
       >
         <iframe
