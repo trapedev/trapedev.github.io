@@ -450,7 +450,34 @@ export default function App(props: Props) {
         <Box id="open-source-tool" sx={{ mb: 10 }}>
           <Typography variant="h4">Open-Source Tool</Typography>
           <SingleCardItem>
-            <Title title={"Breaktooth"} hyperLink="https://breaktooth.dev/" />
+            <>
+              <Title title={"Breaktooth"} hyperLink="https://breaktooth.dev/" />
+              <SecondaryText text="Below is a demonstration of the Breaktooth attack:" />
+              <Box
+                sx={{
+                  maxWidth: "600px", // Set maximum width to 600px
+                  width: "100%", // Allow container to be responsive up to 600px
+                  height: "337.5px", // 600px * (9/16) = 337.5px to maintain 16:9
+                  position: "relative",
+                  mb: 3,
+                  mx: "auto", // Center the container horizontally
+                }}
+              >
+                <iframe
+                  src="https://drive.google.com/file/d/1wNOvnhg-UD_8p7cxAVXGzTEe6mjTSq9C/preview"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    border: "none",
+                  }}
+                  allow="autoplay"
+                  title="breaktooth attack demo"
+                />
+              </Box>
+            </>
           </SingleCardItem>
         </Box>
         <Box id="achievement" sx={{ mb: 10 }}>

@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import {
   SecondaryText,
   SingleCardItem,
@@ -158,6 +159,31 @@ export const IPSJJIPVol322024 = () => {
         }
       />
       <SecondaryText text="To be appear." />
+      <SecondaryText text="Below is a demonstration of the Man-in-the-Portal (MITP) attack:" />
+      <Box
+        sx={{
+          maxWidth: "600px", // Set maximum width to 600px
+          width: "100%", // Allow container to be responsive up to 600px
+          height: "337.5px", // 600px * (9/16) = 337.5px to maintain 16:9
+          position: "relative",
+          mb: 3,
+          mx: "auto", // Center the container horizontally
+        }}
+      >
+        <iframe
+          src="https://drive.google.com/file/d/1uKe2ZhUB1VvdlNOGKqKBRTE61HY-ts90/preview"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            border: "none",
+          }}
+          allow="autoplay"
+          title="breaktooth attack demo"
+        />
+      </Box>
     </SingleCardItem>
   );
 };
