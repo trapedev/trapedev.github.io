@@ -504,7 +504,7 @@ export default function App(props: Props) {
             data={<Twitter sx={{ ml: 1, mr: 1, color: "white" }} />}
           />
           <HyperLink
-            url="https://www.linkedin.com/in/keiichiro-kimura-aaab62291"
+            url="https://www.linkedin.com/in/keiichiro-kimura"
             data={<LinkedIn sx={{ ml: 1, mr: 1, color: "white" }} />}
           />
         </Container>
