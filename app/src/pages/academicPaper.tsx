@@ -19,6 +19,7 @@ export const CSS2022 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
+      <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.393-399, 2022-10-27" />
     </SingleCardItem>
   );
@@ -37,6 +38,7 @@ export const FIT2022 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
+      <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.33-40, 2022-08-30" />
     </SingleCardItem>
   );
@@ -57,6 +59,7 @@ export const CSS2023 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
+      <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.1136-1142, 2023-10-23" />
     </SingleCardItem>
   );
@@ -77,6 +80,7 @@ export const ISEC2023 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
+      <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.103-109, 2023-11-02" />
     </SingleCardItem>
   );
@@ -99,7 +103,7 @@ export const CANDAR2023 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, Masakatu Morii"}
       />
-      <SecondaryText text="Peer-reviewed international conference" />
+      <SecondaryText text="Peer-Reviewed International Conference Paper" />
       <SecondaryText text="pp.11-19, 2023-11-28" />
     </SingleCardItem>
   );
@@ -120,6 +124,7 @@ export const EPRINT2024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
+      <SecondaryText text="Preprint Paper" />
       <SecondaryText text="2024-06-06" />
     </SingleCardItem>
   );
@@ -138,6 +143,7 @@ export const CSEC2024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
+      <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="Vol.2024-CSEC-106 No.82, 2024-07-15" />
     </SingleCardItem>
   );
@@ -158,7 +164,8 @@ export const IPSJJIPVol322024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, Masakatu Morii"
         }
       />
-      <SecondaryText text="To be appear." />
+      <SecondaryText text="Peer-Reviewed Journal Paper" />
+      <SecondaryText text="To be appeared" />
       <SecondaryText text="Below is a demonstration of the Man-in-the-Portal (MITP) attack:" />
       <Box
         sx={{
