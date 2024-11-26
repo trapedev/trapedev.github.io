@@ -39,6 +39,7 @@ import {
   FIT2022,
   IPSJJIPVol322024,
   ISEC2023,
+  SCIS2025,
 } from "pages/academicPaper";
 import { Container } from "@mui/material";
 import { GitHub, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
@@ -438,6 +439,7 @@ export default function App(props: Props) {
         </Box>
         <Box id="publication" sx={{ mb: 10 }}>
           <Typography variant="h4">Publication</Typography>
+          <SCIS2025 />
           <IPSJJIPVol322024 />
           <CSEC2024 />
           <EPRINT2024 />
@@ -447,11 +449,12 @@ export default function App(props: Props) {
           <CSS2022 />
           <FIT2022 />
         </Box>
-        <Box id="open-source-tool" sx={{ mb: 10 }}>
-          <Typography variant="h4">Open-Source Tool</Typography>
+        <Box id="projects" sx={{ mb: 10 }}>
+          <Typography variant="h4">Projects</Typography>
           <SingleCardItem>
             <>
               <Title title={"Breaktooth"} hyperLink="https://breaktooth.dev/" />
+              <SubTitle title={"Open-Source Tool of the Breaktooth Attack."}/>
               <SecondaryText text="Below is a demonstration of the Breaktooth attack:" />
               <Box
                 sx={{
@@ -465,6 +468,37 @@ export default function App(props: Props) {
               >
                 <iframe
                   src="https://drive.google.com/file/d/1wNOvnhg-UD_8p7cxAVXGzTEe6mjTSq9C/preview"
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    border: "none",
+                  }}
+                  allow="autoplay"
+                  title="breaktooth attack demo"
+                />
+              </Box>
+            </>
+          </SingleCardItem>
+          <SingleCardItem>
+            <>
+              <Title title={"Man-in-the-Portal (MITP)"} hyperLink="https://man-in-the-portal.github.io/" />
+              <SubTitle title={"Introduction of the MITP Attack."}/>
+              <SecondaryText text="Below is a demonstration of the MITP attack:" />
+              <Box
+                sx={{
+                  position: "relative",
+                  paddingBottom: "56.25%", // 16:9 aspect ratio
+                  height: 0,
+                  overflow: "hidden",
+                  maxWidth: "100%",
+                  mb: 3,
+                }}
+              >
+                <iframe
+                  src="https://drive.google.com/file/d/1uKe2ZhUB1VvdlNOGKqKBRTE61HY-ts90/preview"
                   style={{
                     position: "absolute",
                     top: 0,
