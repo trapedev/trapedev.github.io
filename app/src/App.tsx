@@ -57,12 +57,13 @@ interface Props {
 
 const drawerWidth = 240;
 const navItems = [
-  "Home",
-  "Education",
-  "Experience",
-  "Publication",
-  "Project",
-  "Achievement",
+  // "Home",
+  // "Education",
+  // "Experience",
+  // "Publication",
+  // "Project",
+  // "Achievement",
+  "", // remove
 ];
 
 export default function App(props: Props) {
@@ -164,7 +165,7 @@ export default function App(props: Props) {
         <Box id="home" sx={{ mb: 10 }}>
           <Bio />
         </Box>
-        <Box id="education" sx={{ mb: 10 }}>
+        {/* <Box id="education" sx={{ mb: 10 }}>
           <Typography variant="h4">Education</Typography>
           <MEngKobeU />
           <BEngKobeU />
@@ -212,7 +213,7 @@ export default function App(props: Props) {
           <InstagramLink />
           <XLink />
           <LinkedInLink />
-        </Container>
+        </Container> */}
       </Container>
     </Box>
   );
