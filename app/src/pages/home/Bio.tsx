@@ -10,6 +10,9 @@ const Bio = () => {
         focuses on vulnerabilities in wireless technologies, such as HTTPS and
         Bluetooth.
       </Typography>
+      <Typography variant="h6">
+        This website will be closed on April 1st, 2025.
+      </Typography>
     </>
   );
 };
