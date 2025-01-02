@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -13,35 +14,49 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { HOME_TITLE } from "./models/constants";
 import { Container } from "@mui/material";
 
+import { HOME_TITLE } from "./models/constants";
+
+// home
+import Bio from "pages/home/Bio";
+
+// publ
+import FIT2022 from "pages/publ/FIT2022";
 import CSS2022 from "pages/publ/CSS2022";
 import CSS2023 from "pages/publ/CSS2023";
-import FIT2022 from "pages/publ/FIT2022";
-import MEngKobeU from "pages/edu/MEngKobeU";
-import BEngKobeU from "pages/edu/BEngKobeU";
 import ISEC2023 from "pages/publ/ISEC2023";
-import ClanTable from "pages/exp/ClanTable";
-import NRI from "pages/exp/NRI";
-import Sony from "pages/exp/Sony";
-import MF from "pages/exp/MF";
-import OneCareer from "pages/exp/OneCareer";
 import CANDAR2023 from "pages/publ/CANDAR2023";
 import EPRINT2024 from "pages/publ/EPRINT2024";
 import CSEC2024 from "pages/publ/CSEC2024";
 import IPSJJIP2024 from "pages/publ/IPSJJIP2024";
 import SCIS2025 from "pages/publ/SCIS2025";
-import BreaktoothTool from "pages/pj/BreaktoothTool";
-import MITPTool from "pages/pj/MITPTool";
+
+//edu
+import MEngKobeU from "pages/edu/MEngKobeU";
+import BEngKobeU from "pages/edu/BEngKobeU";
+
+// exp
+import ClanTable from "pages/exp/ClanTable";
+import NRI from "pages/exp/NRI";
+import Sony from "pages/exp/Sony";
+import MF from "pages/exp/MF";
+import OneCareer from "pages/exp/OneCareer";
 import CanonITS from "pages/exp/CanonITS";
 import KobeU02 from "pages/exp/KobeU02";
 import KobeU01 from "pages/exp/KobeU01";
-import Bio from "pages/home/Bio";
+
+// pj
+import BreaktoothTool from "pages/pj/BreaktoothTool";
+import MITPTool from "pages/pj/MITPTool";
+
+// achv
 import TOEIC from "pages/achv/TOEIC";
 import IPSJCSEC2024 from "pages/achv/IPSJCSEC2024";
 import SCISISEC2023 from "pages/achv/SCISISEC2023";
 import CTF2023 from "pages/achv/CTF2023";
+
+// link
 import GitHubLink from "pages/link/GitHubLink";
 import InstagramLink from "pages/link/InstagramLink";
 import XLink from "pages/link/XLink";
@@ -165,7 +180,7 @@ export default function App(props: Props) {
         <Box id="home" sx={{ mb: 10 }}>
           <Bio />
         </Box>
-        {/* <Box id="education" sx={{ mb: 10 }}>
+        <Box id="education" sx={{ mb: 10 }}>
           <Typography variant="h4">Education</Typography>
           <MEngKobeU />
           <BEngKobeU />
@@ -213,7 +228,7 @@ export default function App(props: Props) {
           <InstagramLink />
           <XLink />
           <LinkedInLink />
-        </Container> */}
+        </Container>
       </Container>
     </Box>
   );
