@@ -10,16 +10,16 @@ const SCIS2025 = () => {
   return (
     <SingleCardItem>
       <Title
-        title={"投稿中"}
-        // hyperLink=""
+        title={"登壇予定"}
+        hyperLink="https://www.iwsec.org/scis/2025/program.html#4F1"
       />
       <Title title={"2025年 暗号と情報セキュリティシンポジウム（SCIS2025）"} />
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
       <Divider sx={{ mt: 2, mb: 2 }} />
       <Title
-        title={"Submitted"}
-        // hyperLink=""
+        title={"To be appeared"}
+        hyperLink="https://www.iwsec.org/scis/2025/program.html#4F1"
       />
       <Title
         title={
