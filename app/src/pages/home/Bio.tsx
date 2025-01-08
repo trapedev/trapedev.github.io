@@ -11,7 +11,7 @@ const Bio = () => {
         Bluetooth.
       </Typography>
       <Typography variant="h6">
-        This website will be closed on April 1st, 2025.
+        This website will be archived on April 1st, 2025.
       </Typography>
     </>
   );
