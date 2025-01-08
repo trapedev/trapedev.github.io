@@ -12,7 +12,7 @@ const IPSJJIP2024 = () => {
         title={
           "Man-in-the-Portal: Breaking SSL/TLS Silently Abusing Captive Portal"
         }
-        hyperLink="https://www.ipsj.or.jp/english/jip/info/accept/sep.html"
+        hyperLink="https://doi.org/10.2197/ipsjjip.32.1066"
       />
       <Title title={"Journal of Information Processing, Vol.32, (2024)"} />
       <SubTitle
@@ -21,7 +21,6 @@ const IPSJJIP2024 = () => {
         }
       />
       <SecondaryText text="Peer-Reviewed Journal Paper" />
-      <SecondaryText text="To be appeared" />
     </SingleCardItem>
   );
 };

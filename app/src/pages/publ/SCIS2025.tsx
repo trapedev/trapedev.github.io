@@ -16,6 +16,7 @@ const SCIS2025 = () => {
       <Title title={"2025年 暗号と情報セキュリティシンポジウム（SCIS2025）"} />
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
+      <SecondaryText text="登壇予定" />
       <Divider sx={{ mt: 2, mb: 2 }} />
       <Title
         title={
@@ -34,6 +35,7 @@ const SCIS2025 = () => {
         }
       />
       <SecondaryText text="Non Peer-Reviewed Paper" />
+      <SecondaryText text="To be appeared" />
     </SingleCardItem>
   );
 };
