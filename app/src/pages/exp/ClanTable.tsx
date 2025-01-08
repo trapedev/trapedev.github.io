@@ -1,7 +1,8 @@
 import Divider from "@mui/material/Divider";
 import {
-  BulletPointsList,
-  HyperLink,
+  // BulletPointsList,
+  // HyperLink,
+  SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
@@ -15,7 +16,8 @@ const ClanTable = () => {
         hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
       />
       <SubTitle title={"2021年8月 - 現在 (業務委託)"} />
-      <BulletPointsList
+      <SecondaryText text="プロダクト" hyperLink="https://www.juksl.com/" />
+      {/* <BulletPointsList
         items={[
           <>
             塾の業務管理をサポートするクラウドサービス
@@ -27,14 +29,15 @@ const ClanTable = () => {
           "ビジネスロジックのアルゴリズムを改善し，処理速度を約17%向上．",
           "運用効率化のため，一部のコードを自動生成・更新する機能を実装．",
         ]}
-      />
+      /> */}
       <Divider sx={{ mt: 2, mb: 2 }} />
       <Title
         title={"Clantable Co."}
         hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
       />
       <SubTitle title={"08/2021 - Present (Outsourcing)"} />
-      <BulletPointsList
+      <SecondaryText text="Products" hyperLink="https://www.juksl.com/" />
+      {/* <BulletPointsList
         items={[
           <>
             Developing and operating cram schools business management service
@@ -45,7 +48,7 @@ const ClanTable = () => {
           "Increased processing speed by approximately 17% by improving business logic algorithms.",
           "Implemented the function that generate and update some of the code automatically to implementation operational efficiency.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };

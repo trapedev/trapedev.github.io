@@ -1,8 +1,9 @@
 import Divider from "@mui/material/Divider";
 import {
-  BulletPointsList,
+  // BulletPointsList,
   DoubleTitle,
-  HyperLink,
+  // HyperLink,
+  SecondaryText,
   SingleCardItem,
   SubTitle,
 } from "components/views/ui";
@@ -17,7 +18,11 @@ const KobeU01 = () => {
         hyperLink2="https://www.police.pref.tokushima.jp/"
       />
       <SubTitle title={"2020年7月 - 2021年3月 (学生技術補佐)"} />
-      <BulletPointsList
+      <SecondaryText
+        text="プロダクト"
+        hyperLink="https://www.tcn.jp/news/detail/5/"
+      />
+      {/* <BulletPointsList
         items={[
           <>
             JavaScriptで{" "}
@@ -29,7 +34,7 @@ const KobeU01 = () => {
           </>,
           "R言語を用いて，収集したデータからサイバーセキュリティの意識データを分析．",
         ]}
-      />
+      /> */}
       <Divider sx={{ mt: 2, mb: 2 }} />
       <DoubleTitle
         title1={"Kobe University"}
@@ -38,7 +43,11 @@ const KobeU01 = () => {
         hyperLink2="https://www.police.pref.tokushima.jp/"
       />
       <SubTitle title={"07/2020 - 03/2021 (Reserch Assistant)"} />
-      <BulletPointsList
+      <SecondaryText
+        text="Products"
+        hyperLink="https://www.tcn.jp/news/detail/5/"
+      />
+      {/* <BulletPointsList
         items={[
           <>
             Developed game-style cyber security education application named{" "}
@@ -50,7 +59,7 @@ const KobeU01 = () => {
           </>,
           "Analyzed data of cyber security awareness from the collected data using R language.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };
