@@ -61,6 +61,7 @@ import GitHubLink from "pages/link/GitHubLink";
 import InstagramLink from "pages/link/InstagramLink";
 import XLink from "pages/link/XLink";
 import LinkedInLink from "pages/link/LinkedInLink";
+import ICSS2025 from "pages/publ/ICSS2025";
 
 interface Props {
   /**
@@ -198,6 +199,7 @@ export default function App(props: Props) {
         </Box>
         <Box id="publication" sx={{ mb: 10 }}>
           <Typography variant="h4">Publication</Typography>
+          <ICSS2025 />
           <SCIS2025 />
           <IPSJJIP2024 />
           <CSEC2024 />
