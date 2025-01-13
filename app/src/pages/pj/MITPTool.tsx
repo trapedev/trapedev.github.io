@@ -6,7 +6,7 @@ import {
   Title,
 } from "components/views/ui";
 
-const MITPTool = () => {
+const BreaktoothTool = () => {
   return (
     <SingleCardItem>
       <Title title={"Breaktooth"} hyperLink="https://breaktooth.dev/" />
@@ -40,4 +40,4 @@ const MITPTool = () => {
   );
 };
 
-export default MITPTool;
+export default BreaktoothTool;

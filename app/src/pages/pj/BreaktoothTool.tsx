@@ -6,7 +6,7 @@ import {
   Title,
 } from "components/views/ui";
 
-const BreaktoothTool = () => {
+const MITPTool = () => {
   return (
     <SingleCardItem>
       <Title
@@ -43,4 +43,4 @@ const BreaktoothTool = () => {
   );
 };
 
-export default BreaktoothTool;
+export default MITPTool;
