@@ -23,7 +23,7 @@ const MITPTool = () => {
         }}
       >
         <iframe
-          src="https://drive.google.com/file/d/1wNOvnhg-UD_8p7cxAVXGzTEe6mjTSq9C/preview"
+          src="https://drive.google.com/file/d/1PGrLUe9FMlisGQNWek8UYkI2SWOwLU2s/preview"
           style={{
             position: "absolute",
             top: 0,
