@@ -15,7 +15,7 @@ const CSS2022 = () => {
         }
         hyperLink="https://cir.nii.ac.jp/crid/1050013087466839168"
       />
-      <Title title={"コンピュータセキュリティシンポジウム (CSS) 2022"} />
+      <SubTitle title={"コンピュータセキュリティシンポジウム (CSS) 2022"} />
       <SubTitle
         title={"木村圭一朗, 白石善明, 森井昌克"}
       />
@@ -28,7 +28,7 @@ const CSS2022 = () => {
         }
         hyperLink="https://cir.nii.ac.jp/crid/1050013087466839168"
       />
-      <Title title={"Computer Security Symposium (CSS) 2022"} />
+      <SubTitle title={"Computer Security Symposium (CSS) 2022"} />
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, and Masakatu Morii"}
       />

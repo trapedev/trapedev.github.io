@@ -15,7 +15,7 @@ const ISEC2023 = () => {
         }
         hyperLink="https://ken.ieice.org/ken/paper/20231110nCyv/"
       />
-      <Title title={"情報セキュリティ研究会 (ISEC) 2023"} />
+      <SubTitle title={"情報セキュリティ研究会 (ISEC) 2023"} />
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文（2023年 情報セキュリティ研究奨励賞 受賞論文）" />
       <SecondaryText text="pp.103-109, 2023-11-02" />
@@ -26,7 +26,7 @@ const ISEC2023 = () => {
         }
         hyperLink="https://ken.ieice.org/ken/paper/20231110nCyv/"
       />
-      <Title title={"Information Security (ISEC) 2023"} />
+      <SubTitle title={"Information Security (ISEC) 2023"} />
       <SubTitle
         title={
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"

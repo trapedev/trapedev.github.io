@@ -14,13 +14,14 @@ const IPSJJIP2024 = () => {
         }
         hyperLink="https://doi.org/10.2197/ipsjjip.32.1066"
       />
-      <Title title={"Journal of Information Processing, Vol.32, (2024)"} />
+      <SubTitle title={"Journal of Information Processing, Vol.32, (2024)"} />
       <SubTitle
         title={
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
       <SecondaryText text="Peer-Reviewed Journal Paper" />
+      <SecondaryText text="pp. 1066--1081, 2024-12-15" />
     </SingleCardItem>
   );
 };

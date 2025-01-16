@@ -18,7 +18,7 @@ const MEngKobeU = () => {
         component="div"
         sx={{ color: "white" }}
       >
-        2023年4月 - 現在
+        2023年4月 - 2025年3月（卒業予定）
       </Typography>
       <SecondaryText text="工学研究科　電気電子工学専攻" />
       <Divider sx={{ mt: 2, mb: 2 }} />
@@ -36,7 +36,7 @@ const MEngKobeU = () => {
         component="div"
         sx={{ color: "white" }}
       >
-        04/2023 - Present
+        04/2023 - 03/2025
       </Typography>
       <SecondaryText text="Department of Electrical and Electronic Engineering, Graduate School of Engineering" />
     </SingleCardItem>

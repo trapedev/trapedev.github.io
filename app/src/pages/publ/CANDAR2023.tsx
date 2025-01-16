@@ -14,7 +14,7 @@ const CANDAR2023 = () => {
         }
         hyperLink="https://ieeexplore.ieee.org/document/10406178"
       />
-      <Title
+      <SubTitle
         title={
           "The Eleventh International Symposium on Computing and Networking (CANDAR) 2023"
         }

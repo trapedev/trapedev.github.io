@@ -15,7 +15,7 @@ const FIT2022 = () => {
         }
         hyperLink="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202236004551288"
       />
-      <Title title={"FIT 情報科学技術フォーラム 2022"} />
+      <SubTitle title={"FIT 情報科学技術フォーラム 2022"} />
       <SubTitle title={"木村圭一朗, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
       <SecondaryText text="pp.33-40, 2022-08-30" />
@@ -26,7 +26,7 @@ const FIT2022 = () => {
         }
         hyperLink="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202236004551288"
       />
-      <Title title={"Forum on Information Technology (FIT) 2022"} />
+      <SubTitle title={"Forum on Information Technology (FIT) 2022"} />
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, and Masakatu Morii"}
       />

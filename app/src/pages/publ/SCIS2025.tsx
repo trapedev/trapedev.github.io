@@ -13,7 +13,7 @@ const SCIS2025 = () => {
         title={"Bluetooth省電力モードを用いた音声盗聴攻撃と防御"}
         hyperLink="https://www.iwsec.org/scis/2025/program.html#4F1"
       />
-      <Title title={"2025年 暗号と情報セキュリティシンポジウム（SCIS2025）"} />
+      <SubTitle title={"2025年 暗号と情報セキュリティシンポジウム (SCIS)"} />
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
       <SecondaryText text="登壇予定" />
@@ -24,7 +24,7 @@ const SCIS2025 = () => {
         }
         hyperLink="https://www.iwsec.org/scis/2025/program.html#4F1"
       />
-      <Title
+      <SubTitle
         title={
           "The 42nd Symposium on Cryptography and Information Security (SCIS) 2025"
         }

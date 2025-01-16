@@ -14,7 +14,7 @@ const EPRINT2024 = () => {
         }
         hyperLink="https://eprint.iacr.org/2024/900"
       />
-      <Title title={"Cryptology ePrint Archive"} />
+      <SubTitle title={"Cryptology ePrint Archive"} />
       <SubTitle
         title={
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
