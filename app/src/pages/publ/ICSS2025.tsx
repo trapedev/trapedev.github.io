@@ -10,7 +10,7 @@ const ICSS2025 = () => {
   return (
     <SingleCardItem>
       <Title
-        title={"投稿済み"}
+        title={"投稿予定"}
         //   hyperLink=""
       />
       <SubTitle title={"2025年 情報通信システムセキュリティ研究会 (ICSS)"} />
@@ -19,7 +19,7 @@ const ICSS2025 = () => {
       {/* <SecondaryText text="登壇予定" /> */}
       <Divider sx={{ mt: 2, mb: 2 }} />
       <Title
-        title={"Submitted"}
+        title={"To be submitted"}
         // hyperLink=""
       />
       <SubTitle
