@@ -10,8 +10,8 @@ const ICSS2025 = () => {
   return (
     <SingleCardItem>
       <Title
-        title={"投稿予定"}
-        //   hyperLink=""
+        title={"Bluetooth省電力モードと認証の脆弱性を用いた中間者攻撃の検討"}
+        hyperLink="https://ken.ieice.org/ken/paper/20250307Ic87/"
       />
       <SubTitle title={"2025年 情報通信システムセキュリティ研究会 (ICSS)"} />
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
@@ -19,8 +19,10 @@ const ICSS2025 = () => {
       {/* <SecondaryText text="登壇予定" /> */}
       <Divider sx={{ mt: 2, mb: 2 }} />
       <Title
-        title={"To be submitted"}
-        // hyperLink=""
+        title={
+          "Study on Man-in-the-Middle Attacks Abusing Power-Saving Mode and Authentication Vulnerabilities in Bluetooth"
+        }
+        hyperLink="https://ken.ieice.org/ken/paper/20250307Ic87/"
       />
       <SubTitle
         title={"Information and Communication System Security (ICSS) 2025"}
