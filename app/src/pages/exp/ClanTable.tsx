@@ -15,7 +15,7 @@ const ClanTable = () => {
         title={"クランテーブル株式会社"}
         hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
       />
-      <SubTitle title={"2021年8月 - 現在 (業務委託)"} />
+      <SubTitle title={"2021年8月 - 2025年3月"} />
       <SecondaryText text="プロダクト" hyperLink="https://www.juksl.com/" />
       {/* <BulletPointsList
         items={[
@@ -35,7 +35,7 @@ const ClanTable = () => {
         title={"Clantable Co."}
         hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
       />
-      <SubTitle title={"08/2021 - Present (Outsourcing)"} />
+      <SubTitle title={"08/2021 - 03/2025"} />
       <SecondaryText text="Products" hyperLink="https://www.juksl.com/" />
       {/* <BulletPointsList
         items={[
