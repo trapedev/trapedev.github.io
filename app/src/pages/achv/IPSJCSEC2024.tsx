@@ -1,4 +1,4 @@
-import { SingleCardItem, SubTitle, Title } from "components/views/ui";
+import { SecondaryText, SingleCardItem, SubTitle, Title } from "components/views/ui";
 
 const IPSJCSEC2024 = () => {
   return (
@@ -8,6 +8,7 @@ const IPSJCSEC2024 = () => {
         hyperLink="https://www.ipsj.or.jp/award/csec-award.html"
       />
       <SubTitle title={"09/2024"} />
+      <SecondaryText text={"CSS 2024@Kobe にて表彰"} />
     </SingleCardItem>
   );
 };

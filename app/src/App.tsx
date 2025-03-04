@@ -62,6 +62,7 @@ import InstagramLink from "pages/link/InstagramLink";
 import XLink from "pages/link/XLink";
 import LinkedInLink from "pages/link/LinkedInLink";
 import ICSS2025 from "pages/publ/ICSS2025";
+import WH1000XM5AuthVulnFix from "pages/achv/WH1000XM5AuthVulnFix";
 
 interface Props {
   /**
@@ -217,6 +218,7 @@ export default function App(props: Props) {
         </Box>
         <Box id="achievement" sx={{ mb: 10 }}>
           <Typography variant="h4">Achievement</Typography>
+          <WH1000XM5AuthVulnFix />
           <IPSJCSEC2024 />
           <SCISISEC2023 />
           <CTF2023 />
