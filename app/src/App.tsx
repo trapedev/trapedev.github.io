@@ -202,7 +202,7 @@ export default function App(props: Props) {
           <KobeU01 />
         </Box>
         <Box id="publication" sx={{ mb: 10 }}>
-          <Typography variant="h4">Publication</Typography>
+          <Typography variant="h4">Publication (Only first author papers)</Typography>
           <ICSS2025 />
           <SCIS2025 />
           <IPSJJIP2024 />
