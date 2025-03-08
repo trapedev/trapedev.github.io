@@ -27,7 +27,7 @@ const WH1000XM5AuthVulnFix = () => {
           "2025年2月，v2.4.1としてパッチが適用されたファームウェアがリリース．"
         }
       />
-      <SecondaryText text={"2025年3月，英語と日本語で謝辞が公開されました．"} />
+      <SecondaryText text={"2025年3月，英語と日本語で謝辞が公開された．"} />
       <Box
         sx={{
           position: "relative",
