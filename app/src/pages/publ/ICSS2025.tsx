@@ -16,7 +16,7 @@ const ICSS2025 = () => {
       <SubTitle title={"2025年 情報通信システムセキュリティ研究会 (ICSS)"} />
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
-      {/* <SecondaryText text="登壇予定" /> */}
+      <SecondaryText text="信学技報, vol. 124, no. 422, ICSS2024-102, pp. 257-264" />
       <Divider sx={{ mt: 2, mb: 2 }} />
       <Title
         title={
@@ -33,7 +33,7 @@ const ICSS2025 = () => {
         }
       />
       <SecondaryText text="Non Peer-Reviewed Paper" />
-      {/* <SecondaryText text="To be appeared" /> */}
+      <SecondaryText text="IEICE Technical Report, vol. 124, no. 422, ICSS2024-102, pp. 257-264" />
     </SingleCardItem>
   );
 };

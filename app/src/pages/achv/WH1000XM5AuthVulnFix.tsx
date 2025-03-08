@@ -31,7 +31,7 @@ const WH1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "25%", // 16:9 aspect ratio
+          paddingBottom: "20%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
@@ -51,7 +51,7 @@ const WH1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "25%", // 16:9 aspect ratio
+          paddingBottom: "20%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
