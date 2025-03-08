@@ -77,13 +77,13 @@ interface Props {
 
 const drawerWidth = 240;
 const navItems = [
-  // "Home",
-  // "Education",
-  // "Experience",
-  // "Publication",
-  // "Project",
-  // "Achievement",
-  "", // remove
+  "Home",
+  "Education",
+  "Experience",
+  "Publication",
+  "Bug Hunting",
+  "Projects",
+  "Achievements",
 ];
 
 export default function App(props: Props) {
@@ -181,17 +181,20 @@ export default function App(props: Props) {
         </Drawer>
       </nav>
       <Container component="main" sx={{ mt: 8, mb: 4 }}>
-        <Toolbar />
-        <Box id="home" sx={{ mb: 10 }}>
+        <Box id="home" sx={{ pt: 10 }}>
           <Bio />
         </Box>
-        <Box id="education" sx={{ mb: 10 }}>
-          <Typography variant="h4">Education</Typography>
+        <Box id="education">
+          <Typography variant="h4" sx={{ pt: 10 }}>
+            Education
+          </Typography>
           <MEngKobeU />
           <BEngKobeU />
         </Box>
-        <Box id="experience" sx={{ mb: 10 }}>
-          <Typography variant="h4">Experience</Typography>
+        <Box id="experience">
+          <Typography variant="h4" sx={{ pt: 10 }}>
+            Experience
+          </Typography>
           <ClanTable />
           <NRI />
           <Sony />
@@ -201,8 +204,10 @@ export default function App(props: Props) {
           <KobeU02 />
           <KobeU01 />
         </Box>
-        <Box id="publication" sx={{ mb: 10 }}>
-          <Typography variant="h4">Publication (Only first author papers)</Typography>
+        <Box id="publication">
+          <Typography variant="h4" sx={{ pt: 10 }}>
+            Publication (Only first author papers)
+          </Typography>
           <ICSS2025 />
           <SCIS2025 />
           <IPSJJIP2024 />
@@ -214,17 +219,26 @@ export default function App(props: Props) {
           <CSS2022 />
           <FIT2022 />
         </Box>
-        <Box id="project" sx={{ mb: 10 }}>
-          <Typography variant="h4">Projects</Typography>
-          <BreaktoothTool />
-          <MITPTool />
-        </Box>
-        <Box id="achievement" sx={{ mb: 10 }}>
-          <Typography variant="h4">Achievement</Typography>
+        <Box id="bug hunting">
+          <Typography variant="h4" sx={{ pt: 10 }}>
+            Bug Hunting
+          </Typography>
           <WF1000XM4AuthVulnFix />
           <WF1000XM5AuthVulnFix />
           <WH1000XM4AuthVulnFix />
           <WH1000XM5AuthVulnFix />
+        </Box>
+        <Box id="projects">
+          <Typography variant="h4" sx={{ pt: 10 }}>
+            Projects
+          </Typography>
+          <BreaktoothTool />
+          <MITPTool />
+        </Box>
+        <Box id="achievements">
+          <Typography variant="h4" sx={{ pt: 10 }}>
+            Achievements
+          </Typography>
           <IPSJCSEC2024 />
           <SCISISEC2023 />
           <CTF2023 />
