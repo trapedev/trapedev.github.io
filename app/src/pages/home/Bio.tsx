@@ -8,8 +8,9 @@ const Bio = () => {
         Hi, there! I'm Keiichiro KIMURA. My research focuses on vulnerabilities
         in wireless technologies, such as HTTPS and Bluetooth.
       </Typography>
-      <Typography variant="h6" sx={{ mt: 5 }}>
-        This website will be archived on April 1st, 2025.
+      <Typography variant="h6" sx={{ mt: 2 }}>
+        This website is no longer be updated, except for results before 31 March
+        2025.
       </Typography>
     </>
   );
