@@ -18,7 +18,7 @@ const MEngKobeU = () => {
         component="div"
         sx={{ color: "white" }}
       >
-        2023年4月 - 2025年3月（卒業予定）
+        2023年4月 - 2025年3月
       </Typography>
       <Typography
         gutterBottom
