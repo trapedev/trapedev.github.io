@@ -9,8 +9,8 @@ const Bio = () => {
         in wireless technologies, such as HTTPS and Bluetooth.
       </Typography>
       <Typography variant="h6" sx={{ mt: 2 }}>
-        This website is no longer being updated, except for results before 31
-        March 2025.
+        This website will no longer be updated, except for results/achievements
+        before March 31, 2025.
       </Typography>
     </>
   );
