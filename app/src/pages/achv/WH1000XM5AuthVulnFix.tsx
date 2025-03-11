@@ -54,7 +54,7 @@ const WH1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "20%", // 16:9 aspect ratio
+          paddingBottom: "15%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
@@ -68,6 +68,30 @@ const WH1000XM5AuthVulnFix = () => {
             maxWidth: "800px",
           }}
           alt="wh-1000xm5-acks-jp"
+        />
+      </Box>
+      <Box
+        sx={{
+          position: "relative",
+          paddingBottom: "56.25%", // 16:9 aspect ratio
+          height: 0,
+          overflow: "hidden",
+          maxWidth: "100%",
+          mb: 3,
+        }}
+      >
+        <iframe
+          src="https://drive.google.com/file/d/1alE6dDvkXPcpLyD29HHnNMVabhRXaEyY/preview"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            border: "none",
+          }}
+          allow="autoplay"
+          title="breaktooth attack demo"
         />
       </Box>
     </SingleCardItem>
