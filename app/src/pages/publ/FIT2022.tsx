@@ -1,4 +1,4 @@
-import { Divider } from "@mui/material";
+// import { Divider } from "@mui/material";
 import {
   SecondaryText,
   SingleCardItem,
@@ -9,7 +9,7 @@ import {
 const FIT2022 = () => {
   return (
     <SingleCardItem>
-      <Title
+      {/* <Title
         title={
           "SSL/TLSを回避する中間者攻撃の新たな提案とその脅威 ～実装による評価と考察～"
         }
@@ -19,7 +19,7 @@ const FIT2022 = () => {
       <SubTitle title={"木村圭一朗, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
       <SecondaryText text="pp.33-40, 2022-08-30" />
-      <Divider sx={{ mt: 2, mb: 2 }} />
+      <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Title
         title={
           "New Proposals and Threats of Man-in-the-Middle Attacks to Evade SSL/TLS: Evaluation and Consideration by Implementation"

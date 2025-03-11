@@ -1,4 +1,4 @@
-import { Divider } from "@mui/material";
+// import { Divider } from "@mui/material";
 import {
   SecondaryText,
   SingleCardItem,
@@ -9,7 +9,7 @@ import {
 const CSS2023 = () => {
   return (
     <SingleCardItem>
-      <Title
+      {/* <Title
         title={
           "Bluetooth BR/EDRへの新たな攻撃手法とその実証 ～省エネモードの脆弱性とその脅威～"
         }
@@ -19,7 +19,7 @@ const CSS2023 = () => {
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
       <SecondaryText text="pp.1136-1142, 2023-10-23" />
-      <Divider sx={{ mt: 2, mb: 2 }} />
+      <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Title
         title={
           "A New Attack Method on Bluetooth BR/EDR and Its Demonstration: Vulnerability of Power-Saving Mode and Its Threat"

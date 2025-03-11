@@ -1,7 +1,7 @@
-import Divider from "@mui/material/Divider";
+// import Divider from "@mui/material/Divider";
 import {
-  // BulletPointsList,
-  // HyperLink,
+  BulletPointsList,
+  HyperLink,
   SecondaryText,
   SingleCardItem,
   SubTitle,
@@ -11,12 +11,12 @@ import {
 const ClanTable = () => {
   return (
     <SingleCardItem>
-      <Title
+      {/* <Title
         title={"クランテーブル株式会社"}
         hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
       />
       <SubTitle title={"2021年8月 - 2025年3月 (業務委託)"} />
-      <SecondaryText text="プロダクト" hyperLink="https://www.juksl.com/" />
+      <SecondaryText text="プロダクト" hyperLink="https://www.juksl.com/" /> */}
       {/* <BulletPointsList
         items={[
           <>
@@ -30,14 +30,14 @@ const ClanTable = () => {
           "運用効率化のため，一部のコードを自動生成・更新する機能を実装．",
         ]}
       /> */}
-      <Divider sx={{ mt: 2, mb: 2 }} />
+      {/* <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Title
         title={"Clantable Co."}
         hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
       />
       <SubTitle title={"08/2021 - 03/2025 (Outsourcing)"} />
       <SecondaryText text="Products" hyperLink="https://www.juksl.com/" />
-      {/* <BulletPointsList
+      <BulletPointsList
         items={[
           <>
             Developing and operating cram schools business management service
@@ -48,7 +48,7 @@ const ClanTable = () => {
           "Increased processing speed by approximately 17% by improving business logic algorithms.",
           "Implemented the function that generate and update some of the code automatically to implementation operational efficiency.",
         ]}
-      /> */}
+      />
     </SingleCardItem>
   );
 };

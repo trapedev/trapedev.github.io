@@ -1,10 +1,10 @@
-import { Typography, Divider } from "@mui/material";
+import { Typography } from "@mui/material";
 import { SecondaryText, SingleCardItem } from "components/views/ui";
 
 const BEngKobeU = () => {
   return (
     <SingleCardItem>
-      <Typography
+      {/* <Typography
         gutterBottom
         variant="h5"
         component="div"
@@ -29,7 +29,7 @@ const BEngKobeU = () => {
         学士論文：OSINTを活用したダークネットの悪性判定システムの開発に関する研究
       </Typography>
       <SecondaryText text="工学部　電気電子工学科" />
-      <Divider sx={{ mt: 2, mb: 2 }} />
+      <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Typography
         gutterBottom
         variant="h5"

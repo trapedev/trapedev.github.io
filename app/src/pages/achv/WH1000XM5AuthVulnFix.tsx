@@ -18,19 +18,19 @@ const WH1000XM5AuthVulnFix = () => {
       <SubTitle title={"03/2025"} />
       <SecondaryText
         text={
-          "2024年8月，WH-1000XM5のBluetooth認証プロセスに新たな脆弱性（CWE-287 related）が存在することを発見．HackerOneを通じてSonyへ報告．"
+          "We discovered a new vulnerability (CWE-287 related) in the Bluetooth authentication process of WH-1000XM5 in August 2024. We reported the new vulnerability to Sony via HackerOne."
         }
       />
-      <SecondaryText text={"2024年11月，Sonyは脆弱性を認めた．"} />
+      <SecondaryText text={"Sony acknowledged the vulnerability in November 2024."} />
       <SecondaryText
         text={
-          "2025年2月，v2.4.1としてパッチが適用されたファームウェアがリリース．"
+          "Sony released firmware with the applied patch as v2.4.1 in February 2025."
         }
       />
-      <SecondaryText text={"2025年3月，英語と日本語で謝辞が公開された．"} />
-      <SecondaryText text={"本脆弱性は，我々が開発した攻撃ツール「Breaktooth」を用いて発見されたものである．"} />
-      <SecondaryText text={"我々は，ICSS2025@沖縄にて本脆弱性の説明を含む学会発表を行った．"} />
-      <SecondaryText text={"脆弱性の調査にご協力いただいた葛野弘樹 准教授，白石善明 教授，森井昌克 教授（情報通信研究室ES3）に感謝申し上げます．"} />
+      <SecondaryText text={"In March 2025, acknowledgments were published in both English and Japanese."} />
+      <SecondaryText text={"This vulnerability was discovered using our attack tool, Breaktooth, that we developed."} />
+      <SecondaryText text={"We made a conference presentation that included an explanation of this vulnerability at ICSS2025@Okinawa."} />
+      <SecondaryText text={"I would like to express my gratitude to Associate Professor Hiroki Kuzuno, Professor Yoshiaki Shiraishi, and Professor Masakatu Morii (ES3 Lab, Kobe University) for their cooperation in investigating the vulnerability."} />
       <Box
         sx={{
           position: "relative",

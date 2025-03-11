@@ -1,4 +1,4 @@
-import { Divider } from "@mui/material";
+// import { Divider } from "@mui/material";
 import {
   SecondaryText,
   SingleCardItem,
@@ -9,7 +9,7 @@ import {
 const CSS2022 = () => {
   return (
     <SingleCardItem>
-      <Title
+      {/* <Title
         title={
           "SSL/TLSを回避して盗聴/改ざんを可能にする中間者攻撃の実装 ～公衆無線LANの脆弱性とその脅威～"
         }
@@ -21,7 +21,7 @@ const CSS2022 = () => {
       />
       <SecondaryText text="国内発表論文" />
       <SecondaryText text="pp.393-399, 2022-10-27" />
-      <Divider sx={{ mt: 2, mb: 2 }} />
+      <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Title
         title={
           "Implementation of Man-in-the-Middle Attacks that bypass SSL/TLS and allow eavesdropping/falsification: Public Wireless LAN Vulnerabilities and Threats"

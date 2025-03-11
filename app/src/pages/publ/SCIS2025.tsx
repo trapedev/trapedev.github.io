@@ -1,4 +1,4 @@
-import { Divider } from "@mui/material";
+// import { Divider } from "@mui/material";
 import {
   SecondaryText,
   SingleCardItem,
@@ -9,7 +9,7 @@ import {
 const SCIS2025 = () => {
   return (
     <SingleCardItem>
-      <Title
+      {/* <Title
         title={"Bluetooth省電力モードを用いた音声盗聴攻撃と防御"}
         hyperLink="https://www.iwsec.org/scis/2025/program.html#4F1"
       />
@@ -17,7 +17,7 @@ const SCIS2025 = () => {
       <SubTitle title={"木村圭一朗, 葛野弘樹, 白石善明, 森井昌克"} />
       <SecondaryText text="国内発表論文" />
       <SecondaryText text="pp.1-8, 2025-01-21" />
-      <Divider sx={{ mt: 2, mb: 2 }} />
+      <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Title
         title={
           "Audio Eavesdropping through Bluetooth Power-Saving Mode and Defenses"

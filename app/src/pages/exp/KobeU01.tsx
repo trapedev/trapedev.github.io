@@ -1,8 +1,8 @@
-import Divider from "@mui/material/Divider";
+// import Divider from "@mui/material/Divider";
 import {
-  // BulletPointsList,
+  BulletPointsList,
   DoubleTitle,
-  // HyperLink,
+  HyperLink,
   SecondaryText,
   SingleCardItem,
   SubTitle,
@@ -11,7 +11,7 @@ import {
 const KobeU01 = () => {
   return (
     <SingleCardItem>
-      <DoubleTitle
+      {/* <DoubleTitle
         title1={"神戸大学大学院工学研究科"}
         hyperLink1="http://www.eng.kobe-u.ac.jp/"
         title2={"徳島県警"}
@@ -21,7 +21,7 @@ const KobeU01 = () => {
       <SecondaryText
         text="プロダクト"
         hyperLink="https://www.tcn.jp/news/detail/5/"
-      />
+      /> */}
       {/* <BulletPointsList
         items={[
           <>
@@ -35,7 +35,7 @@ const KobeU01 = () => {
           "R言語を用いて，収集したデータからサイバーセキュリティの意識データを分析．",
         ]}
       /> */}
-      <Divider sx={{ mt: 2, mb: 2 }} />
+      {/* <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <DoubleTitle
         title1={"Kobe University"}
         hyperLink1="http://www.eng.kobe-u.ac.jp/en/"
@@ -47,19 +47,19 @@ const KobeU01 = () => {
         text="Products"
         hyperLink="https://www.tcn.jp/news/detail/5/"
       />
-      {/* <BulletPointsList
+      <BulletPointsList
         items={[
           <>
             Developed game-style cyber security education application named{" "}
             <HyperLink
               url="https://www.tcn.jp/news/detail/5/"
-              data={"`すごセク`"}
+              data={"`SUGOSEKU`"}
             />{" "}
             in JavaScript.
           </>,
           "Analyzed data of cyber security awareness from the collected data using R language.",
         ]}
-      /> */}
+      />
     </SingleCardItem>
   );
 };
