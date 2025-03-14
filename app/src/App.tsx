@@ -55,6 +55,7 @@ import TOEIC from "pages/achv/TOEIC";
 import IPSJCSEC2024 from "pages/achv/IPSJCSEC2024";
 import SCISISEC2023 from "pages/achv/SCISISEC2023";
 import CTF2023 from "pages/achv/CTF2023";
+import MTH2025 from "pages/achv/MTH2025";
 
 // link
 import GitHubLink from "pages/link/GitHubLink";
@@ -241,6 +242,7 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Achievements
           </Typography>
+          <MTH2025 />
           <IPSJCSEC2024 />
           <SCISISEC2023 />
           <CTF2023 />

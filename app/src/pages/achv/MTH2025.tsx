@@ -3,7 +3,7 @@ import {
   Title,
 } from "components/views/ui";
 
-const SCISISEC2023 = () => {
+const MTH2025 = () => {
   return (
     <SingleCardItem>
       <Title
@@ -13,4 +13,4 @@ const SCISISEC2023 = () => {
   );
 };
 
-export default SCISISEC2023;
+export default MTH2025;
