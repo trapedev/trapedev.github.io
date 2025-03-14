@@ -62,10 +62,12 @@ import InstagramLink from "pages/link/InstagramLink";
 import XLink from "pages/link/XLink";
 import LinkedInLink from "pages/link/LinkedInLink";
 import ICSS2025 from "pages/publ/ICSS2025";
-import WH1000XM5AuthVulnFix from "pages/achv/WH1000XM5AuthVulnFix";
-import WF1000XM4AuthVulnFix from "pages/achv/WF1000XM4AuthVulnFix";
-import WF1000XM5AuthVulnFix from "pages/achv/WF1000XM5AuthVulnFix";
-import WH1000XM4AuthVulnFix from "pages/achv/WH1000XM4AuthVulnFix";
+
+// bugs
+import WH1000XM5AuthVulnFix from "pages/bugs/WH1000XM5AuthVulnFix";
+import WF1000XM4AuthVulnFix from "pages/bugs/WF1000XM4AuthVulnFix";
+import WF1000XM5AuthVulnFix from "pages/bugs/WF1000XM5AuthVulnFix";
+import WH1000XM4AuthVulnFix from "pages/bugs/WH1000XM4AuthVulnFix";
 
 interface Props {
   /**

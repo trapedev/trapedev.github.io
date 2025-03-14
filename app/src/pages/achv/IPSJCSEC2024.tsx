@@ -4,7 +4,7 @@ const IPSJCSEC2024 = () => {
   return (
     <SingleCardItem>
       <Title
-        title={"Received the CSEC Outstanding Research Award at the 106th CSEC Conference"}
+        title={"CSEC Outstanding Research Award (The 106th CSEC Conference)"}
         hyperLink="https://www.ipsj.or.jp/award/csec-award.html"
       />
       <SubTitle title={"09/2024"} />
