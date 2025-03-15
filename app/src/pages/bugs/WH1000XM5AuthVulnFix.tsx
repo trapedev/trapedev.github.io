@@ -30,6 +30,7 @@ const WH1000XM5AuthVulnFix = () => {
       <SecondaryText text={"In March 2025, acknowledgments were published in both English and Japanese."} />
       <SecondaryText text={"This vulnerability was discovered using our attack tool, Breaktooth, that we developed."} />
       <SecondaryText text={"We made a conference presentation that included an explanation of this vulnerability at ICSS2025@Okinawa."} />
+      <SecondaryText text={"Our contributions have been selected as Sony's Hacker of the Month for March 2025 on HackerOne"} />
       <SecondaryText text={"I would like to express my gratitude to Associate Professor Hiroki Kuzuno, Professor Yoshiaki Shiraishi, and Professor Masakatu Morii (ES3 Lab, Kobe University) for their cooperation in investigating the vulnerability."} />
       <Box
         sx={{
@@ -68,6 +69,25 @@ const WH1000XM5AuthVulnFix = () => {
             maxWidth: "800px",
           }}
           alt="wh-1000xm5-acks-jp"
+        />
+      </Box>
+      <Box
+        sx={{
+          position: "relative",
+          paddingBottom: "25%", // 16:9 aspect ratio
+          height: 0,
+          overflow: "hidden",
+          maxWidth: "100%",
+        }}
+      >
+        <img
+          src="wh-1000xm5-award.png"
+          style={{
+            position: "absolute",
+            width: "75%",
+            maxWidth: "800px",
+          }}
+          alt="wh-1000xm5-award"
         />
       </Box>
       <Box
