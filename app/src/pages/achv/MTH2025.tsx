@@ -1,5 +1,6 @@
 import {
   SingleCardItem,
+  SubTitle,
   Title,
 } from "components/views/ui";
 
@@ -7,8 +8,10 @@ const MTH2025 = () => {
   return (
     <SingleCardItem>
       <Title
-        title={"To be appeared in 25th March 2025"}
+        title={"The Chikusuikai Best Master Thesis Award"}
+        hyperLink="https://www.chikusuikai-kobe-u.com/general-9"
       />
+      <SubTitle title={"03/2025"} />
     </SingleCardItem>
   );
 };
