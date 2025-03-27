@@ -9,7 +9,7 @@ const MTH2025 = () => {
   return (
     <SingleCardItem>
       <Title
-        title={"The Chikusuikai Best Master Thesis Award"}
+        title={"The Chikusuikai Best Master Thesis Award, Kobe University"}
         hyperLink="https://www.chikusuikai-kobe-u.com/general-9"
       />
       <SubTitle title={"03/2025"} />
