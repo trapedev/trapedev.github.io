@@ -26,7 +26,7 @@ const WH1000XM4AuthVulnFix = () => {
         }}
       >
         <img
-          src="wh-1000xm5-acks-en.png"
+          src="wh-1000xm4-acks-en.png"
           style={{
             position: "absolute",
             width: "75%",
@@ -45,7 +45,7 @@ const WH1000XM4AuthVulnFix = () => {
         }}
       >
         <img
-          src="wh-1000xm5-acks-jp.png"
+          src="wh-1000xm4-acks-jp.png"
           style={{
             position: "absolute",
             width: "75%",
