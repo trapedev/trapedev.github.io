@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import {
+  SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
@@ -15,10 +16,16 @@ const WH1000XM4AuthVulnFix = () => {
         hyperLink="https://github.com/trapedev/WH-1000XM4_Auth_Vuln_Fixed_v2.9.0"
       />
       <SubTitle title={"04/2025"} />
+      <SecondaryText
+        text={
+          "We discovered a vulnerability (CWE-287 related) in the Bluetooth authentication process of WH-1000XM4. We reported the vulnerability to Sony via HackerOne in January 2025."
+        }
+      />
+      <SecondaryText text={"This vulnerability is the same type as the vulnerability in WH-1000XM5 that was fixed in v2.4.1."} />
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "20%", // 16:9 aspect ratio
+          paddingBottom: "15%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
