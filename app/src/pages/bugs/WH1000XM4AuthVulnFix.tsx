@@ -22,10 +22,16 @@ const WH1000XM4AuthVulnFix = () => {
         }
       />
       <SecondaryText text={"This vulnerability is the same type as the vulnerability in WH-1000XM5 that was fixed in v2.4.1."} />
+      <SecondaryText
+        text={
+          "Sony released firmware with the applied patch as v2.9.0 and acknowledgments were published in both English and Japanese in April 2025."
+        }
+      />
+      <SecondaryText text={"I would like to express my gratitude to Associate Professor Hiroki Kuzuno, Professor Yoshiaki Shiraishi, and Professor Masakatu Morii (ES3 Lab, Kobe University) for their cooperation in investigating the vulnerability."} />
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "15%", // 16:9 aspect ratio
+          paddingBottom: "13%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
