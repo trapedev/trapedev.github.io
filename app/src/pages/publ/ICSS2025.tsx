@@ -32,6 +32,7 @@ const ICSS2025 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="IEICE Technical Report, vol. 124, no. 422, ICSS2024-102, pp. 257-264" />
     </SingleCardItem>

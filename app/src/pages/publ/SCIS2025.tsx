@@ -34,6 +34,7 @@ const SCIS2025 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.1-8, 2025-01-21" />
     </SingleCardItem>

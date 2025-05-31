@@ -69,6 +69,7 @@ import WH1000XM5AuthVulnFix from "pages/bugs/WH1000XM5AuthVulnFix";
 import WF1000XM4AuthVulnFix from "pages/bugs/WF1000XM4AuthVulnFix";
 import WF1000XM5AuthVulnFix from "pages/bugs/WF1000XM5AuthVulnFix";
 import WH1000XM4AuthVulnFix from "pages/bugs/WH1000XM4AuthVulnFix";
+import DICOMO2025 from "pages/publ/DICOMO2025";
 
 interface Props {
   /**
@@ -209,8 +210,9 @@ export default function App(props: Props) {
         </Box>
         <Box id="publication">
           <Typography variant="h4" sx={{ pt: 10 }}>
-            Publication (Only first author papers)
+            Publication
           </Typography>
+          <DICOMO2025 />
           <ICSS2025 />
           <SCIS2025 />
           <IPSJJIP2024 />

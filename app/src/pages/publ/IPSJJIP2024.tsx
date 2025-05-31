@@ -20,6 +20,7 @@ const IPSJJIP2024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Peer-Reviewed Journal Paper" />
       <SecondaryText text="pp. 1066--1081, 2024-12-15" />
     </SingleCardItem>

@@ -28,6 +28,7 @@ const CSEC2024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Non Peer-Reviewed Paper (Award Paper)" />
       <SecondaryText text="Vol.2024-CSEC-106 No.82, 2024-07-15" />
     </SingleCardItem>

@@ -32,6 +32,7 @@ const CSS2022 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, and Masakatu Morii"}
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.393-399, 2022-10-27" />
     </SingleCardItem>

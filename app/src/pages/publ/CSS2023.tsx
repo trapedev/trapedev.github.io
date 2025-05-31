@@ -32,6 +32,7 @@ const CSS2023 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.1136-1142, 2023-10-23" />
     </SingleCardItem>

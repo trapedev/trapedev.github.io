@@ -22,6 +22,7 @@ const CANDAR2023 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, and Masakatu Morii"}
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Peer-Reviewed International Conference Paper" />
       <SecondaryText text="pp.11-19, 2023-11-28" />
     </SingleCardItem>

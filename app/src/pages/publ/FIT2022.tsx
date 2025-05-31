@@ -30,6 +30,7 @@ const FIT2022 = () => {
       <SubTitle
         title={"Keiichiro Kimura, Yoshiaki Shiraishi, and Masakatu Morii"}
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Non Peer-Reviewed Paper" />
       <SecondaryText text="pp.33-40, 2022-08-30" />
     </SingleCardItem>

@@ -20,6 +20,7 @@ const EPRINT2024 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Preprint Paper" />
       <SecondaryText text="2024-06-06" />
     </SingleCardItem>

@@ -32,6 +32,7 @@ const ISEC2023 = () => {
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
         }
       />
+      <SecondaryText text="First Author" />
       <SecondaryText text="Non Peer-Reviewed Paper (Award Paper)" />
       <SecondaryText text="pp.103-109, 2023-11-02" />
     </SingleCardItem>
