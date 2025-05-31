@@ -7,10 +7,10 @@ const Bio = () => {
       <Typography variant="h6">
         Hi, there! I'm Keiichiro KIMURA. Currently navigating my first year in the professional realm as a Product Security Engineer.
       </Typography>
-      <Typography variant="h6" sx={{ mt: 2 }}>
+      {/* <Typography variant="h6" sx={{ mt: 2 }}>
         This website is no longer updated, except for results/achievements
         before March 31, 2025.
-      </Typography>
+      </Typography> */}
     </>
   );
 };
