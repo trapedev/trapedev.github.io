@@ -31,6 +31,8 @@ import EPRINT2024 from "pages/publ/EPRINT2024";
 import CSEC2024 from "pages/publ/CSEC2024";
 import IPSJJIP2024 from "pages/publ/IPSJJIP2024";
 import SCIS2025 from "pages/publ/SCIS2025";
+import DICOMO2025 from "pages/publ/DICOMO2025";
+import IPSJJIP2025 from "pages/publ/IPSJJIP2025";
 
 //edu
 import MEngKobeU from "pages/edu/MEngKobeU";
@@ -69,8 +71,6 @@ import WH1000XM5AuthVulnFix from "pages/bugs/WH1000XM5AuthVulnFix";
 import WF1000XM4AuthVulnFix from "pages/bugs/WF1000XM4AuthVulnFix";
 import WF1000XM5AuthVulnFix from "pages/bugs/WF1000XM5AuthVulnFix";
 import WH1000XM4AuthVulnFix from "pages/bugs/WH1000XM4AuthVulnFix";
-import DICOMO2025 from "pages/publ/DICOMO2025";
-import IPSJJIP2025 from "pages/publ/IPSJJIP2025";
 
 interface Props {
   /**
