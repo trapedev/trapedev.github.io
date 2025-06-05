@@ -26,12 +26,12 @@ const CanonITS = () => {
         hyperLink="https://www.canon-its.co.jp/"
       />
       <SubTitle title={"08/29/2022 - 09/02/2022 (Internship)"} />
-      <BulletPointsList
+      {/* <BulletPointsList
         items={[
           "Analyzed malware and ransomware.",
           "Got the 1st score in CTF contest among the interns.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };

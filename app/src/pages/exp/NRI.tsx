@@ -1,7 +1,7 @@
 // import Divider from "@mui/material/Divider";
 import {
   BulletPointsList,
-  // SecondaryText,
+  SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
@@ -32,12 +32,13 @@ const NRI = () => {
         hyperLink="https://www.nri.com/en"
       />
       <SubTitle title={"01/15/2024 - 01/19/2024 (Internship)"} />
-      <BulletPointsList
+      <SecondaryText text="Technical Engineer" />
+      {/* <BulletPointsList
         items={[
           "Built an access log analysis tool for a payment service in actual operation.",
           "The construction environment was built on AWS.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };

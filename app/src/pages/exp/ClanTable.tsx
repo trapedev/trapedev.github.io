@@ -36,8 +36,9 @@ const ClanTable = () => {
         hyperLink="https://www.ijyuku.clantable.com/clantable-corp"
       />
       <SubTitle title={"08/2021 - 03/2025 (Outsourcing)"} />
-      <SecondaryText text="Products" hyperLink="https://www.juksl.com/" />
-      <BulletPointsList
+      <SecondaryText text="Software Engineer" />
+      <SecondaryText text="Services" hyperLink="https://www.juksl.com/" />
+      {/* <BulletPointsList
         items={[
           <>
             Developing and operating cram schools business management service
@@ -48,7 +49,7 @@ const ClanTable = () => {
           "Increased processing speed by approximately 17% by improving business logic algorithms.",
           "Implemented the function that generate and update some of the code automatically to implementation operational efficiency.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };

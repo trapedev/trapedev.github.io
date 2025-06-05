@@ -29,11 +29,11 @@ const KobeU02 = () => {
         hyperLink2="https://www.osaka.cci.or.jp/e/"
       />
       <SubTitle title={"11/2020 - 05/2021 (Reserch Assistant)"} />
-      <BulletPointsList
+      {/* <BulletPointsList
         items={[
           "Developed e-learning system in PHP as a part of the “サイバーセキュリティお助け隊サービス(Cyber Security Help Team Service)” sponsored by the Osaka Chamber of Commerce and Industry.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };

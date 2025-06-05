@@ -1,6 +1,7 @@
 // import Divider from "@mui/material/Divider";
 import {
   BulletPointsList,
+  SecondaryText,
   SingleCardItem,
   SubTitle,
   Title,
@@ -23,12 +24,13 @@ const OneCareer = () => {
       {/* <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Title title={"ONE CAREER Inc."} hyperLink="https://onecareer.co.jp/" />
       <SubTitle title={"07/22/2023 - 07/23/2023 (Internship)"} />
-      <BulletPointsList
+      <SecondaryText text="Software Engineer" />
+      {/* <BulletPointsList
         items={[
           "Analyzed the Nginx access logs using alp command.",
           "Performed web performance tuning (solving the N+1 problem, optimizing SQL, and reducing the number of system calls) and managed to improve processing speed by approximately 20 times.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };

@@ -44,10 +44,10 @@ const KobeU01 = () => {
       />
       <SubTitle title={"07/2020 - 03/2021 (Reserch Assistant)"} />
       <SecondaryText
-        text="Products"
+        text="Services"
         hyperLink="https://www.tcn.jp/news/detail/5/"
       />
-      <BulletPointsList
+      {/* <BulletPointsList
         items={[
           <>
             Developed game-style cyber security education application named{" "}
@@ -59,7 +59,7 @@ const KobeU01 = () => {
           </>,
           "Analyzed data of cyber security awareness from the collected data using R language.",
         ]}
-      />
+      /> */}
     </SingleCardItem>
   );
 };
