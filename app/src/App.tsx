@@ -71,6 +71,7 @@ import WH1000XM5AuthVulnFix from "pages/bugs/WH1000XM5AuthVulnFix";
 import WF1000XM4AuthVulnFix from "pages/bugs/WF1000XM4AuthVulnFix";
 import WF1000XM5AuthVulnFix from "pages/bugs/WF1000XM5AuthVulnFix";
 import WH1000XM4AuthVulnFix from "pages/bugs/WH1000XM4AuthVulnFix";
+import SCISISEC2025 from "pages/achv/SCISISEC2025";
 
 interface Props {
   /**
@@ -246,6 +247,7 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Achievements
           </Typography>
+          <SCISISEC2025 />
           <MTH2025 />
           <IPSJCSEC2024 />
           <SCISISEC2023 />
