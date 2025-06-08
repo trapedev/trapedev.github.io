@@ -58,6 +58,7 @@ import IPSJCSEC2024 from "pages/achv/IPSJCSEC2024";
 import SCISISEC2023 from "pages/achv/SCISISEC2023";
 import CTF2023 from "pages/achv/CTF2023";
 import MTH2025 from "pages/achv/MTH2025";
+import SCISISEC2025 from "pages/achv/SCISISEC2025";
 
 // link
 import GitHubLink from "pages/link/GitHubLink";
@@ -71,7 +72,6 @@ import WH1000XM5AuthVulnFix from "pages/bugs/WH1000XM5AuthVulnFix";
 import WF1000XM4AuthVulnFix from "pages/bugs/WF1000XM4AuthVulnFix";
 import WF1000XM5AuthVulnFix from "pages/bugs/WF1000XM5AuthVulnFix";
 import WH1000XM4AuthVulnFix from "pages/bugs/WH1000XM4AuthVulnFix";
-import SCISISEC2025 from "pages/achv/SCISISEC2025";
 
 interface Props {
   /**
