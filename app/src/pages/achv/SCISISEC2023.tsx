@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import {
   // SecondaryText,
   SingleCardItem,
@@ -14,6 +15,26 @@ const SCISISEC2023 = () => {
       />
       <SubTitle title={"12/2023"} />
       {/* <SecondaryText text={"SCIS 2024@Nagasaki にて表彰"} /> */}
+      <Box
+        sx={{
+          position: "relative",
+          paddingBottom: "12%", // 16:9 aspect ratio
+          height: 0,
+          overflow: "hidden",
+          maxWidth: "100%",
+          mt: 3,
+        }}
+      >
+        <img
+          src="isec2023.png"
+          style={{
+            position: "absolute",
+            width: "75%",
+            maxWidth: "800px",
+          }}
+          alt="wh-1000xm5-acks-en"
+        />
+      </Box>
     </SingleCardItem>
   );
 };

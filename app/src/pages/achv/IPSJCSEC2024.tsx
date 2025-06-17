@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import { SingleCardItem, SubTitle, Title } from "components/views/ui";
 
 const IPSJCSEC2024 = () => {
@@ -9,6 +10,26 @@ const IPSJCSEC2024 = () => {
       />
       <SubTitle title={"09/2024"} />
       {/* <SecondaryText text={"CSS 2024@Kobe にて表彰"} /> */}
+      <Box
+        sx={{
+          position: "relative",
+          paddingBottom: "15%", // 16:9 aspect ratio
+          height: 0,
+          overflow: "hidden",
+          maxWidth: "100%",
+          mt: 3,
+        }}
+      >
+        <img
+          src="csec2024.png"
+          style={{
+            position: "absolute",
+            width: "75%",
+            maxWidth: "800px",
+          }}
+          alt="wh-1000xm5-acks-en"
+        />
+      </Box>
     </SingleCardItem>
   );
 };
