@@ -31,6 +31,7 @@ import EPRINT2024 from "pages/publ/EPRINT2024";
 import CSEC2024 from "pages/publ/CSEC2024";
 import IPSJJIP2024 from "pages/publ/IPSJJIP2024";
 import SCIS2025 from "pages/publ/SCIS2025";
+import ICSS2025 from "pages/publ/ICSS2025";
 import DICOMO2025 from "pages/publ/DICOMO2025";
 import IPSJJIP2025 from "pages/publ/IPSJJIP2025";
 
@@ -65,13 +66,15 @@ import GitHubLink from "pages/link/GitHubLink";
 import InstagramLink from "pages/link/InstagramLink";
 import XLink from "pages/link/XLink";
 import LinkedInLink from "pages/link/LinkedInLink";
-import ICSS2025 from "pages/publ/ICSS2025";
 
 // bugs
 import WH1000XM5AuthVulnFix from "pages/bugs/WH1000XM5AuthVulnFix";
 import WF1000XM4AuthVulnFix from "pages/bugs/WF1000XM4AuthVulnFix";
 import WF1000XM5AuthVulnFix from "pages/bugs/WF1000XM5AuthVulnFix";
 import WH1000XM4AuthVulnFix from "pages/bugs/WH1000XM4AuthVulnFix";
+
+// others
+import IERAECTF2025 from "pages/others/IERAECTF2025";
 
 interface Props {
   /**
@@ -253,6 +256,12 @@ export default function App(props: Props) {
           <SCISISEC2023 />
           <CTF2023 />
           <TOEIC />
+        </Box>
+        <Box id="others">
+          <Typography variant="h4" sx={{ pt: 10 }}>
+            Others
+          </Typography>
+          <IERAECTF2025 />
         </Box>
         <Container
           maxWidth="lg"
