@@ -13,7 +13,7 @@ const WH1000XM5AuthVulnFix = () => {
         title={
           "Sony, WH-1000XM5's Improper Authentication Vulnerability (Fixed in v2.4.1)"
         }
-        hyperLink="https://github.com/trapedev/WH-1000XM5_Auth_Vuln_Fixed_v2.4.1"
+      // hyperLink="https://github.com/trapedev/WH-1000XM5_Auth_Vuln_Fixed_v2.4.1"
       />
       <SubTitle title={"03/2025"} />
       <SecondaryText
