@@ -34,7 +34,6 @@ import SCIS2025 from "pages/publ/SCIS2025";
 import ICSS2025 from "pages/publ/ICSS2025";
 import DICOMO2025 from "pages/publ/DICOMO2025";
 import IPSJJIP2025 from "pages/publ/IPSJJIP2025";
-import ARXIV2025 from "pages/publ/ARXIV2025";
 
 //edu
 import MEngKobeU from "pages/edu/MEngKobeU";
@@ -218,7 +217,6 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Publication
           </Typography>
-          <ARXIV2025 />
           <IPSJJIP2025 />
           <DICOMO2025 />
           <ICSS2025 />
