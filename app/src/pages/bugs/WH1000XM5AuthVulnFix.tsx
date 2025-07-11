@@ -13,7 +13,8 @@ const WH1000XM5AuthVulnFix = () => {
         title={
           "Sony, WH-1000XM5's Improper Authentication Vulnerability (Fixed in v2.4.1)"
         }
-      // hyperLink="https://github.com/trapedev/WH-1000XM5_Auth_Vuln_Fixed_v2.4.1"
+        // hyperLink="https://github.com/trapedev/WH-1000XM5_Auth_Vuln_Fixed_v2.4.1"
+        hyperLink="https://hackerone.com/reports/2642615"
       />
       <SubTitle title={"03/2025"} />
       <SecondaryText
@@ -88,6 +89,25 @@ const WH1000XM5AuthVulnFix = () => {
             maxWidth: "800px",
           }}
           alt="wh-1000xm5-award"
+        />
+      </Box>
+      <Box
+        sx={{
+          position: "relative",
+          paddingBottom: "25%", // 16:9 aspect ratio
+          height: 0,
+          overflow: "hidden",
+          maxWidth: "100%",
+        }}
+      >
+        <img
+          src="hackerone.png"
+          style={{
+            position: "absolute",
+            width: "75%",
+            maxWidth: "800px",
+          }}
+          alt="hackerone"
         />
       </Box>
       <Box
