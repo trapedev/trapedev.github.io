@@ -73,9 +73,11 @@ import WH1000XM5AuthVulnFix from "pages/bugs/WH1000XM5AuthVulnFix";
 import WF1000XM4AuthVulnFix from "pages/bugs/WF1000XM4AuthVulnFix";
 import WF1000XM5AuthVulnFix from "pages/bugs/WF1000XM5AuthVulnFix";
 import WH1000XM4AuthVulnFix from "pages/bugs/WH1000XM4AuthVulnFix";
+import MistralAIInputValidFlawFix from "pages/bugs/MistralAIInputValidFlawFix";
 
 // others
 import IERAECTF2025 from "pages/others/IERAECTF2025";
+import SECCONBEGINNERCTF2025 from "pages/others/SECCONBEGINNERCTF2025";
 
 interface Props {
   /**
@@ -236,6 +238,7 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Bug Hunting
           </Typography>
+          <MistralAIInputValidFlawFix />
           <WF1000XM4AuthVulnFix />
           <WF1000XM5AuthVulnFix />
           <WH1000XM4AuthVulnFix />
@@ -264,6 +267,7 @@ export default function App(props: Props) {
             Others
           </Typography>
           <IERAECTF2025 />
+          <SECCONBEGINNERCTF2025 />
         </Box>
         <Container
           maxWidth="lg"
