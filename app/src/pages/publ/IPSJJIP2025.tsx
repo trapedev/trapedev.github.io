@@ -14,7 +14,7 @@ const IPSJJIP2025 = () => {
         }
       // hyperLink="https://doi.org/10.2197/ipsjjip.32.1066"
       />
-      <SubTitle title={"Journal of Information Processing, Vol.33, (To be appeared im Septemper, 2025)"} />
+      <SubTitle title={"Journal of Information Processing, Vol.33, (To be appeared in Septemper, 2025)"} />
       <SubTitle
         title={
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
