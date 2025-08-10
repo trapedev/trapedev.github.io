@@ -25,6 +25,7 @@ const Sony = () => {
       /> */}
       {/* <Divider sx={{ mt: 2, mb: 2 }} /> */}
       <Title title={"Sony"} hyperLink="https://www.sony.com/en/" />
+      <SubTitle title={"04/01/2025 - Present (Full-time Employee)"} />
       <SubTitle title={"08/28/2023 - 09/08/2023 (Internship)"} />
       <SecondaryText text="Product Security Engineer" />
       {/* <BulletPointsList

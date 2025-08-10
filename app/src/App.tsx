@@ -207,9 +207,9 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Experience
           </Typography>
+          <Sony />
           <ClanTable />
           <NRI />
-          <Sony />
           <MF />
           <OneCareer />
           <CanonITS />
