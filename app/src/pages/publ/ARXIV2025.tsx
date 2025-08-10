@@ -27,6 +27,7 @@ const ARXIV2025 = () => {
             />
             <SecondaryText text="First Author" />
             <SecondaryText text="Preprint Paper" />
+            <SecondaryText text="2025-07-01" />
         </SingleCardItem>
     );
 };

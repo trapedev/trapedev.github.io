@@ -14,7 +14,7 @@ const IPSJJIP2025 = () => {
         }
       // hyperLink="https://doi.org/10.2197/ipsjjip.32.1066"
       />
-      <SubTitle title={"Journal of Information Processing, Vol.33, (To be appeared in Septemper, 2025)"} />
+      <SubTitle title={"Journal of Information Processing, Vol.33, (To be appeared in Sep. 2025)"} />
       <SubTitle
         title={
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"
@@ -22,7 +22,7 @@ const IPSJJIP2025 = () => {
       />
       <SecondaryText text="First Author" />
       <SecondaryText text="Peer-Reviewed Journal Paper" />
-      {/* <SecondaryText text="pp. 1066--1081, 2024-12-15" /> */}
+      <SecondaryText text="pp. xxxx-xxxx, 2025-09-15" />
     </SingleCardItem>
   );
 };

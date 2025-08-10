@@ -220,8 +220,8 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Publication
           </Typography>
-          <ARXIV2025 />
           <IPSJJIP2025 />
+          <ARXIV2025 />
           <DICOMO2025 />
           <ICSS2025 />
           <SCIS2025 />
