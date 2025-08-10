@@ -274,8 +274,6 @@ export default function App(props: Props) {
           sx={{ display: "flex", justifyContent: "center" }}
         >
           <GitHubLink />
-          <InstagramLink />
-          <XLink />
           <LinkedInLink />
         </Container>
       </Container>
