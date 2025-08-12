@@ -64,8 +64,6 @@ import SCISISEC2025 from "pages/achv/SCISISEC2025";
 
 // link
 import GitHubLink from "pages/link/GitHubLink";
-import InstagramLink from "pages/link/InstagramLink";
-import XLink from "pages/link/XLink";
 import LinkedInLink from "pages/link/LinkedInLink";
 
 // bugs

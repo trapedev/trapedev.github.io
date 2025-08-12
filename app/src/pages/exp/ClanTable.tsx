@@ -1,7 +1,5 @@
 // import Divider from "@mui/material/Divider";
 import {
-  BulletPointsList,
-  HyperLink,
   SecondaryText,
   SingleCardItem,
   SubTitle,
