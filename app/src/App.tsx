@@ -76,6 +76,7 @@ import MistralAIInputValidFlawFix from "pages/bugs/MistralAIInputValidFlawFix";
 // others
 import IERAECTF2025 from "pages/others/IERAECTF2025";
 import SECCONBEGINNERCTF2025 from "pages/others/SECCONBEGINNERCTF2025";
+import IPSJJIPSPECIAL2025 from "pages/achv/IPSJJIP2025";
 
 interface Props {
   /**
@@ -253,6 +254,7 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Achievements
           </Typography>
+          <IPSJJIPSPECIAL2025 />
           <SCISISEC2025 />
           <MTH2025 />
           <IPSJCSEC2024 />

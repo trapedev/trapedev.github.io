@@ -6,15 +6,15 @@ import {
     Title,
 } from "components/views/ui";
 
-const SCISISEC2025 = () => {
+const IPSJJIPSPECIAL2025 = () => {
     return (
         <SingleCardItem>
             <Title
-                title={"SCIS Paper Award 2025"}
-                hyperLink="https://www.ieice.org/ess/isec/award-SCIS.html"
+                title={"JIP Specially Selected Paper Certificate 2025"}
+                hyperLink="https://www.ipsj.or.jp/english/organization/aboutipsj/award/ssp_award.html"
             />
-            <SubTitle title={"06/2025"} />
-            <SecondaryText text={"Title: Audio Eavesdropping through Bluetooth Power-Saving Mode and Defenses"} />
+            <SubTitle title={"09/2025"} />
+            <SecondaryText text={"Title: Breaktooth: Breaking Security and Privacy in Bluetooth Power-Saving Mode"} />
             <Box
                 sx={{
                     position: "relative",
@@ -26,17 +26,17 @@ const SCISISEC2025 = () => {
                 }}
             >
                 <img
-                    src="scis2025.png"
+                    src="ipsjjip2025.png"
                     style={{
                         position: "absolute",
                         width: "75%",
                         maxWidth: "800px",
                     }}
-                    alt="scis2025"
+                    alt="ipsjjip2025"
                 />
             </Box>
         </SingleCardItem>
     );
 };
 
-export default SCISISEC2025;
+export default IPSJJIPSPECIAL2025;

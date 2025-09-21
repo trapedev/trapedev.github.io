@@ -32,7 +32,7 @@ const SCISISEC2023 = () => {
             width: "75%",
             maxWidth: "800px",
           }}
-          alt="wh-1000xm5-acks-en"
+          alt="isec2023"
         />
       </Box>
     </SingleCardItem>

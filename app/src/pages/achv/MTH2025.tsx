@@ -32,7 +32,7 @@ const MTH2025 = () => {
             width: "75%",
             maxWidth: "800px",
           }}
-          alt="wh-1000xm5-acks-en"
+          alt="mth2025"
         />
       </Box>
     </SingleCardItem>
