@@ -12,7 +12,7 @@ const IPSJJIP2025 = () => {
         title={
           "Breaktooth: Breaking Security and Privacy in Bluetooth Power-Saving Mode"
         }
-      // hyperLink="https://doi.org/10.2197/ipsjjip.32.1066"
+        hyperLink="https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_523/_article"
       />
       <SubTitle title={"Journal of Information Processing, Vol.33, (To be appeared in Sep. 2025)"} />
       <SubTitle
@@ -22,7 +22,7 @@ const IPSJJIP2025 = () => {
       />
       <SecondaryText text="First Author" />
       <SecondaryText text="Peer-Reviewed Journal Paper" />
-      <SecondaryText text="pp. xxxx-xxxx, 2025-09-15" />
+      <SecondaryText text="pp. 523-536, 2025-09-15" />
     </SingleCardItem>
   );
 };
