@@ -14,7 +14,7 @@ const IPSJJIP2025 = () => {
         }
         hyperLink="https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_523/_article"
       />
-      <SubTitle title={"Journal of Information Processing, Vol.33, (To be appeared in Sep. 2025)"} />
+      <SubTitle title={"Journal of Information Processing, Vol.33"} />
       <SubTitle
         title={
           "Keiichiro Kimura, Hiroki Kuzuno, Yoshiaki Shiraishi, and Masakatu Morii"

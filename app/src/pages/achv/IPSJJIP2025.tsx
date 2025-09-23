@@ -18,7 +18,7 @@ const IPSJJIPSPECIAL2025 = () => {
             <Box
                 sx={{
                     position: "relative",
-                    paddingBottom: "20%", // 16:9 aspect ratio
+                    paddingBottom: "10%", // 16:9 aspect ratio
                     height: 0,
                     overflow: "hidden",
                     maxWidth: "100%",
