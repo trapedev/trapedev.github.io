@@ -15,6 +15,18 @@ const WF1000XM5AuthVulnFix = () => {
         }
       />
       <SubTitle title={"07/2025"} />
+      <SecondaryText
+        text={
+          "We discovered a vulnerability (CWE-287 related) in the Bluetooth authentication process of WF-1000XM5. We reported the vulnerability to Sony via HackerOne in January 2025."
+        }
+      />
+      <SecondaryText text={"This vulnerability is the same type as the vulnerability in WH-1000XM5 that was fixed in v2.4.1."} />
+      <SecondaryText
+        text={
+          "Sony released firmware with the applied patch as v5.0.2 and acknowledgments were published in both English and Japanese in July 2025."
+        }
+      />
+      <SecondaryText text={"I would like to express my gratitude to Associate Professor Hiroki Kuzuno, Professor Yoshiaki Shiraishi, and Professor Masakatu Morii (ES3 Lab, Kobe University) for their cooperation in investigating the vulnerability."} />
       <Box
         sx={{
           position: "relative",
