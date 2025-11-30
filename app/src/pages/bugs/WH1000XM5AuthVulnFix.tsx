@@ -36,7 +36,7 @@ const WH1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "20%", // 16:9 aspect ratio
+          paddingBottom: "18%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
@@ -56,7 +56,7 @@ const WH1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "15%", // 16:9 aspect ratio
+          paddingBottom: "13%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
@@ -75,7 +75,7 @@ const WH1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "25%", // 16:9 aspect ratio
+          paddingBottom: "23%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
@@ -94,7 +94,7 @@ const WH1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "25%", // 16:9 aspect ratio
+          paddingBottom: "18%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",

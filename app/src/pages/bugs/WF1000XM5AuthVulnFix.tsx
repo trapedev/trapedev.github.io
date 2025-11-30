@@ -30,7 +30,7 @@ const WF1000XM5AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "20%", // 16:9 aspect ratio
+          paddingBottom: "15%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",

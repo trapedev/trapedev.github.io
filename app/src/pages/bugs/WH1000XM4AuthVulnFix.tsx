@@ -31,7 +31,7 @@ const WH1000XM4AuthVulnFix = () => {
       <Box
         sx={{
           position: "relative",
-          paddingBottom: "13%", // 16:9 aspect ratio
+          paddingBottom: "11%", // 16:9 aspect ratio
           height: 0,
           overflow: "hidden",
           maxWidth: "100%",
