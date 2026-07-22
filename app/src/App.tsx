@@ -77,6 +77,7 @@ import MistralAIInputValidFlawFix from "pages/bugs/MistralAIInputValidFlawFix";
 import IERAECTF2025 from "pages/others/IERAECTF2025";
 import SECCONBEGINNERCTF2025 from "pages/others/SECCONBEGINNERCTF2025";
 import IPSJJIPSPECIAL2025 from "pages/achv/IPSJJIP2025";
+import CSEC2026 from "pages/publ/CSEC2026";
 
 interface Props {
   /**
@@ -219,6 +220,7 @@ export default function App(props: Props) {
           <Typography variant="h4" sx={{ pt: 10 }}>
             Publication
           </Typography>
+          <CSEC2026 />
           <IPSJJIP2025 />
           <ARXIV2025 />
           <DICOMO2025 />
